@@ -1,0 +1,253 @@
+{
+
+  "conductor": [
+    {"id": 1,  "type": "AAC", "codename": "Leo",     "stranding": "7/2.50",  "overall_diameter_mm": 7.50, "area_mm2": 34.4},
+    {"id": 2,  "type": "AAC", "codename": "Leonids", "stranding": "7/2.75",  "overall_diameter_mm": 8.25, "area_mm2": 41.6},
+    {"id": 3,  "type": "AAC", "codename": "Libra",   "stranding": "7/3.00",  "overall_diameter_mm": 9.00, "area_mm2": 49.5},
+    {"id": 4,  "type": "AAC", "codename": "Mars",    "stranding": "7/3.75",  "overall_diameter_mm": 11.3, "area_mm2": 77.3},
+    {"id": 5,  "type": "AAC", "codename": "Mercury", "stranding": "7/4.50",  "overall_diameter_mm": 13.5, "area_mm2": 111},
+    {"id": 6,  "type": "AAC", "codename": "Moon",    "stranding": "7/4.75",  "overall_diameter_mm": 14.3, "area_mm2": 124},
+    {"id": 7,  "type": "AAC", "codename": "Neptune", "stranding": "19/3.25", "overall_diameter_mm": 16.3, "area_mm2": 158},
+    {"id": 8,  "type": "AAC", "codename": "Orion",   "stranding": "19/3.50", "overall_diameter_mm": 17.5, "area_mm2": 183},
+    {"id": 9,  "type": "AAC", "codename": "Pluto",   "stranding": "19/3.75", "overall_diameter_mm": 18.8, "area_mm2": 210},
+    {"id": 10, "type": "AAC", "codename": "Saturn",  "stranding": "37/3.00", "overall_diameter_mm": 21.0, "area_mm2": 262},
+    {"id": 11, "type": "AAC", "codename": "Sirius",  "stranding": "37/3.25", "overall_diameter_mm": 22.8, "area_mm2": 307},
+    {"id": 12, "type": "AAC", "codename": "Taurus",  "stranding": "19/4.75", "overall_diameter_mm": 23.8, "area_mm2": 337},
+    {"id": 13, "type": "AAC", "codename": "Triton",  "stranding": "37/3.75", "overall_diameter_mm": 26.3, "area_mm2": 409},
+    {"id": 14, "type": "AAC", "codename": "Uranus",  "stranding": "61/3.25", "overall_diameter_mm": 29.3, "area_mm2": 506},
+    {"id": 15, "type": "AAC", "codename": "Ursula",  "stranding": "61/3.50", "overall_diameter_mm": 31.5, "area_mm2": 587},
+    {"id": 16, "type": "AAC", "codename": "Venus",   "stranding": "61/3.75", "overall_diameter_mm": 33.8, "area_mm2": 673}
+  ],
+
+  "mechanical": [
+    {"conductor_id": 1,  "mass": 94.3, "breaking_load": 5.71, "modulus": 65, "expansion": 23.0},
+    {"conductor_id": 2,  "mass": 113,  "breaking_load": 6.72, "modulus": 65, "expansion": 23.0},
+    {"conductor_id": 3,  "mass": 135,  "breaking_load": 7.98, "modulus": 65, "expansion": 23.0},
+    {"conductor_id": 4,  "mass": 211,  "breaking_load": 11.8, "modulus": 65, "expansion": 23.0},
+    {"conductor_id": 5,  "mass": 304,  "breaking_load": 16.9, "modulus": 65, "expansion": 23.0},
+    {"conductor_id": 6,  "mass": 339,  "breaking_load": 18.9, "modulus": 65, "expansion": 23.0},
+    {"conductor_id": 7,  "mass": 433,  "breaking_load": 24.7, "modulus": 65, "expansion": 23.0},
+    {"conductor_id": 8,  "mass": 503,  "breaking_load": 28.7, "modulus": 65, "expansion": 23.0},
+    {"conductor_id": 9,  "mass": 576,  "breaking_load": 31.9, "modulus": 65, "expansion": 23.0},
+    {"conductor_id": 10, "mass": 721,  "breaking_load": 42.2, "modulus": 64, "expansion": 23.0},
+    {"conductor_id": 11, "mass": 845,  "breaking_load": 48.2, "modulus": 64, "expansion": 23.0},
+    {"conductor_id": 12, "mass": 924,  "breaking_load": 51.3, "modulus": 65, "expansion": 23.0},
+    {"conductor_id": 13, "mass": 1120, "breaking_load": 62.2, "modulus": 64, "expansion": 23.0},
+    {"conductor_id": 14, "mass": 1400, "breaking_load": 75.2, "modulus": 64, "expansion": 23.0},
+    {"conductor_id": 15, "mass": 1620, "breaking_load": 87.3, "modulus": 64, "expansion": 23.0},
+    {"conductor_id": 16, "mass": 1860, "breaking_load": 97.2, "modulus": 64, "expansion": 23.0}
+  ],
+
+
+  "electrical": [
+    {"conductor_id": 1,  "dc_resistance_20C": 0.833, "ac_resistance_50Hz": 1.000, "reactance_50Hz": 0.295},
+    {"conductor_id": 2,  "dc_resistance_20C": 0.689, "ac_resistance_50Hz": 0.842, "reactance_50Hz": 0.289},
+    {"conductor_id": 3,  "dc_resistance_20C": 0.579, "ac_resistance_50Hz": 0.707, "reactance_50Hz": 0.284},
+    {"conductor_id": 4,  "dc_resistance_20C": 0.370, "ac_resistance_50Hz": 0.452, "reactance_50Hz": 0.270},
+    {"conductor_id": 5,  "dc_resistance_20C": 0.258, "ac_resistance_50Hz": 0.315, "reactance_50Hz": 0.259},
+    {"conductor_id": 6,  "dc_resistance_20C": 0.232, "ac_resistance_50Hz": 0.284, "reactance_50Hz": 0.255},
+    {"conductor_id": 7,  "dc_resistance_20C": 0.183, "ac_resistance_50Hz": 0.224, "reactance_50Hz": 0.244},
+    {"conductor_id": 8,  "dc_resistance_20C": 0.157, "ac_resistance_50Hz": 0.192, "reactance_50Hz": 0.240},
+    {"conductor_id": 9,  "dc_resistance_20C": 0.137, "ac_resistance_50Hz": 0.168, "reactance_50Hz": 0.235},
+    {"conductor_id": 10, "dc_resistance_20C": 0.110, "ac_resistance_50Hz": 0.135, "reactance_50Hz": 0.227},
+    {"conductor_id": 11, "dc_resistance_20C": 0.0940,"ac_resistance_50Hz": 0.116, "reactance_50Hz": 0.222},
+    {"conductor_id": 12, "dc_resistance_20C": 0.0857,"ac_resistance_50Hz": 0.105, "reactance_50Hz": 0.220},
+    {"conductor_id": 13, "dc_resistance_20C": 0.0706,"ac_resistance_50Hz": 0.0872,"reactance_50Hz": 0.213},
+    {"conductor_id": 14, "dc_resistance_20C": 0.0572,"ac_resistance_50Hz": 0.0710,"reactance_50Hz": 0.206},
+    {"conductor_id": 15, "dc_resistance_20C": 0.0493,"ac_resistance_50Hz": 0.0616,"reactance_50Hz": 0.201},
+    {"conductor_id": 16, "dc_resistance_20C": 0.0429,"ac_resistance_50Hz": 0.0539,"reactance_50Hz": 0.197}
+  ],
+  "current_rating": [
+    {
+      "conductor_id": 1,
+      "rural": {
+        "winter": {"still": 123, "wind_1ms": 211, "wind_2ms": 245},
+        "summer": {"still": 95,  "wind_1ms": 190, "wind_2ms": 225}
+      },
+      "industrial": {
+        "winter": {"still": 132, "wind_1ms": 216, "wind_2ms": 250},
+        "summer": {"still": 88,  "wind_1ms": 186, "wind_2ms": 222}
+      }
+    },
+
+    {
+      "conductor_id": 2,
+      "rural": {
+        "winter": {"still": 140, "wind_1ms": 237, "wind_2ms": 276},
+        "summer": {"still": 107, "wind_1ms": 213, "wind_2ms": 253}
+      },
+      "industrial": {
+        "winter": {"still": 150, "wind_1ms": 243, "wind_2ms": 282},
+        "summer": {"still": 99,  "wind_1ms": 209, "wind_2ms": 249}
+      }
+    },
+
+    {
+      "conductor_id": 3,
+      "rural": {
+        "winter": {"still": 157, "wind_1ms": 265, "wind_2ms": 308},
+        "summer": {"still": 119, "wind_1ms": 237, "wind_2ms": 281}
+      },
+      "industrial": {
+        "winter": {"still": 169, "wind_1ms": 272, "wind_2ms": 314},
+        "summer": {"still": 110, "wind_1ms": 232, "wind_2ms": 277}
+      }
+    },
+
+    {
+      "conductor_id": 4,
+      "rural": {
+        "winter": {"still": 211, "wind_1ms": 350, "wind_2ms": 408},
+        "summer": {"still": 157, "wind_1ms": 311, "wind_2ms": 369}
+      },
+      "industrial": {
+        "winter": {"still": 228, "wind_1ms": 361, "wind_2ms": 417},
+        "summer": {"still": 143, "wind_1ms": 304, "wind_2ms": 364}
+      }
+    },
+
+    {
+      "conductor_id": 5,
+      "rural": {
+        "winter": {"still": 269, "wind_1ms": 440, "wind_2ms": 511},
+        "summer": {"still": 196, "wind_1ms": 388, "wind_2ms": 461}
+      },
+      "industrial": {
+        "winter": {"still": 292, "wind_1ms": 454, "wind_2ms": 524},
+        "summer": {"still": 176, "wind_1ms": 378, "wind_2ms": 453}
+      }
+    },
+
+    {
+      "conductor_id": 6,
+      "rural": {
+        "winter": {"still": 289, "wind_1ms": 470, "wind_2ms": 546},
+        "summer": {"still": 209, "wind_1ms": 413, "wind_2ms": 492}
+      },
+      "industrial": {
+        "winter": {"still": 314, "wind_1ms": 486, "wind_2ms": 560},
+        "summer": {"still": 188, "wind_1ms": 403, "wind_2ms": 483}
+      }
+    },
+
+    {
+      "conductor_id": 7,
+      "rural": {
+        "winter": {"still": 343, "wind_1ms": 548, "wind_2ms": 636},
+        "summer": {"still": 243, "wind_1ms": 479, "wind_2ms": 570}
+      },
+      "industrial": {
+        "winter": {"still": 373, "wind_1ms": 568, "wind_2ms": 653},
+        "summer": {"still": 216, "wind_1ms": 465, "wind_2ms": 559}
+      }
+    },
+
+    {
+      "conductor_id": 8,
+      "rural": {
+        "winter": {"still": 381, "wind_1ms": 603, "wind_2ms": 699},
+        "summer": {"still": 269, "wind_1ms": 525, "wind_2ms": 625}
+      },
+      "industrial": {
+        "winter": {"still": 416, "wind_1ms": 626, "wind_2ms": 719},
+        "summer": {"still": 238, "wind_1ms": 510, "wind_2ms": 612}
+      }
+    },
+     {
+      "conductor_id": 9,
+      "rural": {
+        "winter": {"still": 420, "wind_1ms": 657, "wind_2ms": 762},
+        "summer": {"still": 295, "wind_1ms": 570, "wind_2ms": 679}
+      },
+      "industrial": {
+        "winter": {"still": 458, "wind_1ms": 683, "wind_2ms": 784},
+        "summer": {"still": 260, "wind_1ms": 553, "wind_2ms": 665}
+      }
+    },
+
+    {
+      "conductor_id": 10,
+      "rural": {
+        "winter": {"still": 490, "wind_1ms": 755, "wind_2ms": 875},
+        "summer": {"still": 341, "wind_1ms": 651, "wind_2ms": 776}
+      },
+      "industrial": {
+        "winter": {"still": 536, "wind_1ms": 786, "wind_2ms": 901},
+        "summer": {"still": 299, "wind_1ms": 630, "wind_2ms": 759}
+      }
+    },
+
+    {
+      "conductor_id": 11,
+      "rural": {
+        "winter": {"still": 547, "wind_1ms": 834, "wind_2ms": 975},
+        "summer": {"still": 379, "wind_1ms": 716, "wind_2ms": 854}
+      },
+      "industrial": {
+        "winter": {"still": 599, "wind_1ms": 869, "wind_2ms": 1006},
+        "summer": {"still": 331, "wind_1ms": 692, "wind_2ms": 834}
+      }
+    },
+
+    {
+      "conductor_id": 12,
+      "rural": {
+        "winter": {"still": 583, "wind_1ms": 883, "wind_2ms": 1039},
+        "summer": {"still": 402, "wind_1ms": 756, "wind_2ms": 902}
+      },
+      "industrial": {
+        "winter": {"still": 639, "wind_1ms": 921, "wind_2ms": 1071},
+        "summer": {"still": 350, "wind_1ms": 730, "wind_2ms": 880}
+      }
+    },
+
+    {
+      "conductor_id": 13,
+      "rural": {
+        "winter": {"still": 668, "wind_1ms": 997, "wind_2ms": 1190},
+        "summer": {"still": 457, "wind_1ms": 849, "wind_2ms": 1028}
+      },
+      "industrial": {
+        "winter": {"still": 733, "wind_1ms": 1042, "wind_2ms": 1228},
+        "summer": {"still": 396, "wind_1ms": 818, "wind_2ms": 1002}
+      }
+    },
+
+    {
+      "conductor_id": 14,
+      "rural": {
+        "winter": {"still": 773, "wind_1ms": 1137, "wind_2ms": 1377},
+        "summer": {"still": 525, "wind_1ms": 962, "wind_2ms": 1188}
+      },
+      "industrial": {
+        "winter": {"still": 850, "wind_1ms": 1191, "wind_2ms": 1420},
+        "summer": {"still": 452, "wind_1ms": 925, "wind_2ms": 1158}
+      }
+    },
+
+    {
+      "conductor_id": 15,
+      "rural": {
+        "winter": {"still": 856, "wind_1ms": 1246, "wind_2ms": 1524},
+        "summer": {"still": 578, "wind_1ms": 1049, "wind_2ms": 1314}
+      },
+      "industrial": {
+        "winter": {"still": 942, "wind_1ms": 1300, "wind_2ms": 1570},
+        "summer": {"still": 495, "wind_1ms": 1006, "wind_2ms": 1280}
+      }
+    },
+
+    {
+      "conductor_id": 16,
+      "rural": {
+        "winter": {"still": 941, "wind_1ms": 1356, "wind_2ms": 1674},
+        "summer": {"still": 631, "wind_1ms": 1137, "wind_2ms": 1442}
+      },
+      "industrial": {
+        "winter": {"still": 1036, "wind_1ms": 1424, "wind_2ms": 1730},
+        "summer": {"still": 539, "wind_1ms": 1089, "wind_2ms": 1405}
+      }
+    }
+  ]
+
+}

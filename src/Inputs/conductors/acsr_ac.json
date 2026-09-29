@@ -1,0 +1,181 @@
+{
+    "conductor": [
+  {"id": 1,  "type": "ACSR/AC", "codename": "Angling",  "stranding": "6/2.50 + 1/2.50", "overall_diameter_mm": 7.5,  "area_mm2": 34.4},
+  {"id": 2,  "type": "ACSR/AC", "codename": "Aquatics", "stranding": "6/2.75 + 1/2.75", "overall_diameter_mm": 8.3,  "area_mm2": 41.6},
+  {"id": 3,  "type": "ACSR/AC", "codename": "Archery",  "stranding": "6/3.00 + 1/3.00", "overall_diameter_mm": 9.0,  "area_mm2": 49.5},
+  {"id": 4,  "type": "ACSR/AC", "codename": "Athletics","stranding": "6/3.75 + 1/3.75", "overall_diameter_mm": 11.3, "area_mm2": 77.3},
+  {"id": 5,  "type": "ACSR/AC", "codename": "Badminton","stranding": "6/4.50 + 1/4.50", "overall_diameter_mm": 13.5, "area_mm2": 120},
+  {"id": 6,  "type": "ACSR/AC", "codename": "Baseball", "stranding": "20/2.50 + 7/2.50","overall_diameter_mm": 17.5, "area_mm2": 182},
+  {"id": 7,  "type": "ACSR/AC", "codename": "Basketball","stranding": "30/2.00 + 7/3.25","overall_diameter_mm": 21.0, "area_mm2": 262},
+  {"id": 8,  "type": "ACSR/AC", "codename": "Biathlon", "stranding": "30/2.25 + 7/3.25","overall_diameter_mm": 22.0, "area_mm2": 307},
+  {"id": 9,  "type": "ACSR/AC", "codename": "Billiards","stranding": "30/3.50 + 7/3.50","overall_diameter_mm": 24.5, "area_mm2": 356},
+  {"id": 10, "type": "ACSR/AC", "codename": "BMX",      "stranding": "54/3.00 + 7/3.00","overall_diameter_mm": 27.0, "area_mm2": 431},
+  {"id": 11, "type": "ACSR/AC", "codename": "Boxing",   "stranding": "54/3.25 + 7/3.25","overall_diameter_mm": 29.3, "area_mm2": 506},
+  {"id": 12, "type": "ACSR/AC", "codename": "Canoeing", "stranding": "54/3.50 + 7/3.50","overall_diameter_mm": 31.5, "area_mm2": 587},
+  {"id": 13, "type": "ACSR/AC", "codename": "Cricket",  "stranding": "54/4.25 + 7/4.25","overall_diameter_mm": 38.0, "area_mm2": 672},
+  {"id": 14, "type": "ACSR/AC", "codename": "Curling",  "stranding": "3/1.75 + 4/1.75", "overall_diameter_mm": 5.3,  "area_mm2": 16.8},
+  {"id": 15, "type": "ACSR/AC", "codename": "Cycling",  "stranding": "3/2.50 + 4/2.50", "overall_diameter_mm": 7.5,  "area_mm2": 34.4},
+  {"id": 16, "type": "ACSR/AC", "codename": "Diving",   "stranding": "4/3.00 + 3/3.00", "overall_diameter_mm": 9.0,  "area_mm2": 49.5},
+  {"id": 17, "type": "ACSR/AC", "codename": "Equestrian","stranding": "4/3.75 + 3/3.75","overall_diameter_mm": 11.3, "area_mm2": 77.3}
+    ],
+    "mechanical": [
+  {"conductor_id": 1,  "mass": 119,  "breaking_load": 10.5, "modulus": 83,  "expansion": 19.3},
+  {"conductor_id": 2,  "mass": 144,  "breaking_load": 12.6, "modulus": 83,  "expansion": 19.3},
+  {"conductor_id": 3,  "mass": 171,  "breaking_load": 14.9, "modulus": 83,  "expansion": 19.3},
+  {"conductor_id": 4,  "mass": 268,  "breaking_load": 22.7, "modulus": 83,  "expansion": 19.3},
+  {"conductor_id": 5,  "mass": 402,  "breaking_load": 33.4, "modulus": 83,  "expansion": 19.9},
+  {"conductor_id": 6,  "mass": 677,  "breaking_load": 63.5, "modulus": 88,  "expansion": 18.4},
+  {"conductor_id": 7,  "mass": 973,  "breaking_load": 90.4, "modulus": 88,  "expansion": 18.4},
+  {"conductor_id": 8,  "mass": 1140, "breaking_load": 105,  "modulus": 88,  "expansion": 18.4},
+  {"conductor_id": 9,  "mass": 1320, "breaking_load": 122,  "modulus": 88,  "expansion": 18.4},
+  {"conductor_id": 10, "mass": 1440, "breaking_load": 119,  "modulus": 78,  "expansion": 19.9},
+  {"conductor_id": 11, "mass": 1690, "breaking_load": 137,  "modulus": 78,  "expansion": 19.9},
+  {"conductor_id": 12, "mass": 1960, "breaking_load": 159,  "modulus": 78,  "expansion": 19.9},
+  {"conductor_id": 13, "mass": 2240, "breaking_load": 178,  "modulus": 78,  "expansion": 20.0},
+  {"conductor_id": 14, "mass": 95,   "breaking_load": 12.7, "modulus": 136, "expansion": 13.9},
+  {"conductor_id": 15, "mass": 195,  "breaking_load": 24.4, "modulus": 136, "expansion": 13.9},
+  {"conductor_id": 16, "mass": 243,  "breaking_load": 28.3, "modulus": 119, "expansion": 15.2},
+  {"conductor_id": 17, "mass": 380,  "breaking_load": 43.9, "modulus": 119, "expansion": 15.2}
+    ],
+    "electrical": [
+  {"conductor_id": 1,  "dc_resistance_20C": 0.975, "dc_resistance_75C": 1.24, "ac_resistance_50Hz": 1.31,  "reactance_50Hz": 0.296},
+  {"conductor_id": 2,  "dc_resistance_20C": 0.865, "dc_resistance_75C": 1.10, "ac_resistance_50Hz": 1.08,  "reactance_50Hz": 0.290},
+  {"conductor_id": 3,  "dc_resistance_20C": 0.677, "dc_resistance_75C": 0.86, "ac_resistance_50Hz": 0.91,  "reactance_50Hz": 0.283},
+  {"conductor_id": 4,  "dc_resistance_20C": 0.433, "dc_resistance_75C": 0.55, "ac_resistance_50Hz": 0.582, "reactance_50Hz": 0.271},
+  {"conductor_id": 5,  "dc_resistance_20C": 0.238, "dc_resistance_75C": 0.30, "ac_resistance_50Hz": 0.317, "reactance_50Hz": 0.257},
+  {"conductor_id": 6,  "dc_resistance_20C": 0.198, "dc_resistance_75C": 0.25, "ac_resistance_50Hz": 0.267, "reactance_50Hz": 0.248},
+  {"conductor_id": 7,  "dc_resistance_20C": 0.136, "dc_resistance_75C": 0.17, "ac_resistance_50Hz": 0.167, "reactance_50Hz": 0.228},
+  {"conductor_id": 8,  "dc_resistance_20C": 0.118, "dc_resistance_75C": 0.15, "ac_resistance_50Hz": 0.145, "reactance_50Hz": 0.219},
+  {"conductor_id": 9,  "dc_resistance_20C": 0.100, "dc_resistance_75C": 0.13, "ac_resistance_50Hz": 0.129, "reactance_50Hz": 0.213},
+  {"conductor_id": 10, "dc_resistance_20C": 0.078, "dc_resistance_75C": 0.10, "ac_resistance_50Hz": 0.095, "reactance_50Hz": 0.209},
+  {"conductor_id": 11, "dc_resistance_20C": 0.065, "dc_resistance_75C": 0.08, "ac_resistance_50Hz": 0.082, "reactance_50Hz": 0.204},
+  {"conductor_id": 12, "dc_resistance_20C": 0.055, "dc_resistance_75C": 0.07, "ac_resistance_50Hz": 0.070, "reactance_50Hz": 0.204},
+  {"conductor_id": 13, "dc_resistance_20C": 0.045, "dc_resistance_75C": 0.06, "ac_resistance_50Hz": 0.057, "reactance_50Hz": 0.204},
+  {"conductor_id": 14, "dc_resistance_20C": 3.25,  "dc_resistance_75C": 4.17, "ac_resistance_50Hz": 4.17,  "reactance_50Hz": 0.256},
+  {"conductor_id": 15, "dc_resistance_20C": 1.95,  "dc_resistance_75C": 2.43, "ac_resistance_50Hz": 2.43,  "reactance_50Hz": 0.256},
+  {"conductor_id": 16, "dc_resistance_20C": 1.30,  "dc_resistance_75C": 1.62, "ac_resistance_50Hz": 1.62,  "reactance_50Hz": 0.247},
+  {"conductor_id": 17, "dc_resistance_20C": 0.975, "dc_resistance_75C": 1.22, "ac_resistance_50Hz": 1.22,  "reactance_50Hz": 0.240}
+    ],
+    "current_rating": [
+  {
+    "conductor_id": 1,
+    "rural_winter":   {"still": 116, "wind_1ms": 184, "wind_2ms": 216},
+    "rural_summer":   {"still": 167, "wind_1ms": 198, "wind_2ms": 116},
+    "industrial_winter": {"still": 190, "wind_1ms": 220, "wind_2ms": 179},
+    "industrial_summer": {"still": 164, "wind_1ms": 195, "wind_2ms": 0}
+  },
+  {
+    "conductor_id": 2,
+    "rural_winter":   {"still": 95, "wind_1ms": 188, "wind_2ms": 223},
+    "rural_summer":   {"still": 131, "wind_1ms": 215, "wind_2ms": 248},
+    "industrial_winter": {"still": 89, "wind_1ms": 184, "wind_2ms": 220},
+    "industrial_summer": {"still": 0, "wind_1ms": 0, "wind_2ms": 0}
+  },
+  {
+    "conductor_id": 3,
+    "rural_winter":   {"still": 107, "wind_1ms": 209, "wind_2ms": 248},
+    "rural_summer":   {"still": 148, "wind_1ms": 240, "wind_2ms": 279},
+    "industrial_winter": {"still": 93, "wind_1ms": 205, "wind_2ms": 244},
+    "industrial_summer": {"still": 0, "wind_1ms": 0, "wind_2ms": 0}
+  },
+  {
+    "conductor_id": 4,
+    "rural_winter":   {"still": 141, "wind_1ms": 359, "wind_2ms": 274},
+    "rural_summer":   {"still": 326, "wind_1ms": 210, "wind_2ms": 318},
+    "industrial_winter": {"still": 129, "wind_1ms": 268, "wind_2ms": 321},
+    "industrial_summer": {"still": 0, "wind_1ms": 0, "wind_2ms": 0}
+  },
+  {
+    "conductor_id": 5,
+    "rural_winter":   {"still": 191, "wind_1ms": 458, "wind_2ms": 364},
+    "rural_summer":   {"still": 284, "wind_1ms": 301, "wind_2ms": 430},
+    "industrial_winter": {"still": 173, "wind_1ms": 384, "wind_2ms": 426},
+    "industrial_summer": {"still": 0, "wind_1ms": 0, "wind_2ms": 0}
+  },
+  {
+    "conductor_id": 6,
+    "rural_winter":   {"still": 231, "wind_1ms": 640, "wind_2ms": 531},
+    "rural_summer":   {"still": 368, "wind_1ms": 502, "wind_2ms": 617},
+    "industrial_winter": {"still": 211, "wind_1ms": 456, "wind_2ms": 529},
+    "industrial_summer": {"still": 0, "wind_1ms": 0, "wind_2ms": 0}
+  },
+  {
+    "conductor_id": 7,
+    "rural_winter":   {"still": 307, "wind_1ms": 787, "wind_2ms": 585},
+    "rural_summer":   {"still": 398, "wind_1ms": 482, "wind_2ms": 707},
+    "industrial_winter": {"still": 269, "wind_1ms": 567, "wind_2ms": 621},
+    "industrial_summer": {"still": 0, "wind_1ms": 0, "wind_2ms": 0}
+  },
+  {
+    "conductor_id": 8,
+    "rural_winter":   {"still": 331, "wind_1ms": 850, "wind_2ms": 637},
+    "rural_summer":   {"still": 433, "wind_1ms": 540, "wind_2ms": 752},
+    "industrial_winter": {"still": 298, "wind_1ms": 623, "wind_2ms": 751},
+    "industrial_summer": {"still": 0, "wind_1ms": 0, "wind_2ms": 0}
+  },
+  {
+    "conductor_id": 9,
+    "rural_winter":   {"still": 377, "wind_1ms": 976, "wind_2ms": 706},
+    "rural_summer":   {"still": 495, "wind_1ms": 601, "wind_2ms": 862},
+    "industrial_winter": {"still": 328, "wind_1ms": 681, "wind_2ms": 823},
+    "industrial_summer": {"still": 0, "wind_1ms": 0, "wind_2ms": 0}
+  },
+    {
+    "conductor_id": 10,
+    "rural_winter":   {"still": 485, "wind_1ms": 1147, "wind_2ms": 816},
+    "rural_summer":   {"still": 618, "wind_1ms": 911,  "wind_2ms": 1003},
+    "industrial_winter": {"still": 423, "wind_1ms": 786, "wind_2ms": 986},
+    "industrial_summer": {"still": 0, "wind_1ms": 0, "wind_2ms": 0}
+  },
+  {
+    "conductor_id": 11,
+    "rural_winter":   {"still": 547, "wind_1ms": 1295, "wind_2ms": 918},
+    "rural_summer":   {"still": 695, "wind_1ms": 1060, "wind_2ms": 1132},
+    "industrial_winter": {"still": 480, "wind_1ms": 861, "wind_2ms": 1078},
+    "industrial_summer": {"still": 0, "wind_1ms": 0, "wind_2ms": 0}
+  },
+  {
+    "conductor_id": 12,
+    "rural_winter":   {"still": 543, "wind_1ms": 1421, "wind_2ms": 988},
+    "rural_summer":   {"still": 841, "wind_1ms": 1225, "wind_2ms": 984},
+    "industrial_winter": {"still": 466, "wind_1ms": 941, "wind_2ms": 1194},
+    "industrial_summer": {"still": 0, "wind_1ms": 0, "wind_2ms": 0}
+  },
+  {
+    "conductor_id": 13,
+    "rural_winter":   {"still": 655, "wind_1ms": 1655, "wind_2ms": 1095},
+    "rural_summer":   {"still": 1005, "wind_1ms": 1284, "wind_2ms": 1333},
+    "industrial_winter": {"still": 530, "wind_1ms": 1023, "wind_2ms": 1372},
+    "industrial_summer": {"still": 0, "wind_1ms": 0, "wind_2ms": 0}
+  },
+  {
+    "conductor_id": 14,
+    "rural_winter":   {"still": 56, "wind_1ms": 109, "wind_2ms": 105},
+    "rural_summer":   {"still": 56, "wind_1ms": 195, "wind_2ms": 110},
+    "industrial_winter": {"still": 40, "wind_1ms": 83, "wind_2ms": 99},
+    "industrial_summer": {"still": 0, "wind_1ms": 0, "wind_2ms": 0}
+  },
+  {
+    "conductor_id": 15,
+    "rural_winter":   {"still": 83, "wind_1ms": 195, "wind_2ms": 110},
+    "rural_summer":   {"still": 56, "wind_1ms": 195, "wind_2ms": 110},
+    "industrial_winter": {"still": 40, "wind_1ms": 83, "wind_2ms": 99},
+    "industrial_summer": {"still": 0, "wind_1ms": 0, "wind_2ms": 0}
+  },
+  {
+    "conductor_id": 16,
+    "rural_winter":   {"still": 99, "wind_1ms": 243, "wind_2ms": 130},
+    "rural_summer":   {"still": 62, "wind_1ms": 247, "wind_2ms": 300},
+    "industrial_winter": {"still": 52, "wind_1ms": 120, "wind_2ms": 0},
+    "industrial_summer": {"still": 0, "wind_1ms": 0, "wind_2ms": 0}
+  },
+  {
+    "conductor_id": 17,
+    "rural_winter":   {"still": 129, "wind_1ms": 268, "wind_2ms": 321},
+    "rural_summer":   {"still": 210, "wind_1ms": 318, "wind_2ms": 367},
+    "industrial_winter": {"still": 129, "wind_1ms": 268, "wind_2ms": 321},
+    "industrial_summer": {"still": 0, "wind_1ms": 0, "wind_2ms": 0}
+  }
+    ]
+
+}

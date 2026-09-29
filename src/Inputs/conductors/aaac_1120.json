@@ -1,0 +1,146 @@
+{
+    "conductor": [
+  {"id": 1, "type": "AAAC", "codename": "Chlorine", "area_mm2": 34.4, "stranding": "7/2.50", "overall_diameter_mm": 7.50},
+  {"id": 2, "type": "AAAC", "codename": "Chromium", "area_mm2": 48.5, "stranding": "7/3.00", "overall_diameter_mm": 9.00},
+  {"id": 3, "type": "AAAC", "codename": "Fluorine", "area_mm2": 61.2, "stranding": "7/3.35", "overall_diameter_mm": 10.05},
+  {"id": 4, "type": "AAAC", "codename": "Helium", "area_mm2": 75.4, "stranding": "7/3.75", "overall_diameter_mm": 11.25},
+  {"id": 5, "type": "AAAC", "codename": "Hydrogen", "area_mm2": 94.2, "stranding": "7/4.20", "overall_diameter_mm": 12.60},
+  {"id": 6, "type": "AAAC", "codename": "Iodine", "area_mm2": 122.0, "stranding": "19/3.00", "overall_diameter_mm": 15.00},
+  {"id": 7, "type": "AAAC", "codename": "Krypton", "area_mm2": 152.0, "stranding": "19/3.35", "overall_diameter_mm": 16.75},
+  {"id": 8, "type": "AAAC", "codename": "Lutetium", "area_mm2": 184.0, "stranding": "19/3.75", "overall_diameter_mm": 18.75},
+  {"id": 9, "type": "AAAC", "codename": "Neon", "area_mm2": 211.0, "stranding": "19/4.00", "overall_diameter_mm": 20.00},
+  {"id": 10, "type": "AAAC", "codename": "Nitrogen", "area_mm2": 242.0, "stranding": "19/4.25", "overall_diameter_mm": 21.25},
+  {"id": 11, "type": "AAAC", "codename": "Nobelium", "area_mm2": 303.0, "stranding": "37/3.35", "overall_diameter_mm": 23.45},
+  {"id": 12, "type": "AAAC", "codename": "Oxygen", "area_mm2": 364.0, "stranding": "37/3.75", "overall_diameter_mm": 26.25},
+  {"id": 13, "type": "AAAC", "codename": "Phosphorus", "area_mm2": 430.0, "stranding": "37/4.00", "overall_diameter_mm": 28.00},
+  {"id": 14, "type": "AAAC", "codename": "Selenium", "area_mm2": 492.0, "stranding": "37/4.25", "overall_diameter_mm": 29.75},
+  {"id": 15, "type": "AAAC", "codename": "Silicon", "area_mm2": 563.0, "stranding": "61/3.75", "overall_diameter_mm": 33.75},
+  {"id": 16, "type": "AAAC", "codename": "Sulfur", "area_mm2": 673.0, "stranding": "61/3.75", "overall_diameter_mm": 33.75}
+    ],
+    "mechanical": [
+  {"conductor_id": 1, "mass": 94.3, "breaking_load": 8.18, "modulus": 65, "expansion": 23.0},
+  {"conductor_id": 2, "mass": 133.0, "breaking_load": 11.3, "modulus": 65, "expansion": 23.0},
+  {"conductor_id": 3, "mass": 168.0, "breaking_load": 14.2, "modulus": 65, "expansion": 23.0},
+  {"conductor_id": 4, "mass": 207.0, "breaking_load": 17.3, "modulus": 65, "expansion": 23.0},
+  {"conductor_id": 5, "mass": 258.0, "breaking_load": 21.5, "modulus": 65, "expansion": 23.0},
+  {"conductor_id": 6, "mass": 334.0, "breaking_load": 27.5, "modulus": 65, "expansion": 23.0},
+  {"conductor_id": 7, "mass": 416.0, "breaking_load": 34.0, "modulus": 65, "expansion": 23.0},
+  {"conductor_id": 8, "mass": 504.0, "breaking_load": 41.0, "modulus": 65, "expansion": 23.0},
+  {"conductor_id": 9, "mass": 578.0, "breaking_load": 46.0, "modulus": 65, "expansion": 23.0},
+  {"conductor_id": 10, "mass": 663.0, "breaking_load": 52.0, "modulus": 65, "expansion": 23.0},
+  {"conductor_id": 11, "mass": 831.0, "breaking_load": 65.0, "modulus": 64, "expansion": 23.0},
+  {"conductor_id": 12, "mass": 998.0, "breaking_load": 78.0, "modulus": 64, "expansion": 23.0},
+  {"conductor_id": 13, "mass": 1180.0, "breaking_load": 92.0, "modulus": 64, "expansion": 23.0},
+  {"conductor_id": 14, "mass": 1350.0, "breaking_load": 105.0, "modulus": 64, "expansion": 23.0},
+  {"conductor_id": 15, "mass": 1540.0, "breaking_load": 120.0, "modulus": 64, "expansion": 23.0},
+  {"conductor_id": 16, "mass": 1860.0, "breaking_load": 145.0, "modulus": 64, "expansion": 23.0}
+    ],
+    "electrical": [
+  {"conductor_id": 1, "dc_resistance_20C": 0.864, "ac_resistance_50Hz": 1.05, "reactance_50Hz": 0.295},
+  {"conductor_id": 2, "dc_resistance_20C": 0.612, "ac_resistance_50Hz": 0.74, "reactance_50Hz": 0.281},
+  {"conductor_id": 3, "dc_resistance_20C": 0.485, "ac_resistance_50Hz": 0.59, "reactance_50Hz": 0.273},
+  {"conductor_id": 4, "dc_resistance_20C": 0.394, "ac_resistance_50Hz": 0.48, "reactance_50Hz": 0.266},
+  {"conductor_id": 5, "dc_resistance_20C": 0.315, "ac_resistance_50Hz": 0.39, "reactance_50Hz": 0.260},
+  {"conductor_id": 6, "dc_resistance_20C": 0.243, "ac_resistance_50Hz": 0.30, "reactance_50Hz": 0.250},
+  {"conductor_id": 7, "dc_resistance_20C": 0.195, "ac_resistance_50Hz": 0.24, "reactance_50Hz": 0.244},
+  {"conductor_id": 8, "dc_resistance_20C": 0.161, "ac_resistance_50Hz": 0.20, "reactance_50Hz": 0.238},
+  {"conductor_id": 9, "dc_resistance_20C": 0.140, "ac_resistance_50Hz": 0.17, "reactance_50Hz": 0.233},
+  {"conductor_id": 10, "dc_resistance_20C": 0.122, "ac_resistance_50Hz": 0.15, "reactance_50Hz": 0.229},
+  {"conductor_id": 11, "dc_resistance_20C": 0.097, "ac_resistance_50Hz": 0.12, "reactance_50Hz": 0.224},
+  {"conductor_id": 12, "dc_resistance_20C": 0.081, "ac_resistance_50Hz": 0.10, "reactance_50Hz": 0.219},
+  {"conductor_id": 13, "dc_resistance_20C": 0.069, "ac_resistance_50Hz": 0.09, "reactance_50Hz": 0.215},
+  {"conductor_id": 14, "dc_resistance_20C": 0.060, "ac_resistance_50Hz": 0.08, "reactance_50Hz": 0.212},
+  {"conductor_id": 15, "dc_resistance_20C": 0.052, "ac_resistance_50Hz": 0.07, "reactance_50Hz": 0.208},
+  {"conductor_id": 16, "dc_resistance_20C": 0.044, "ac_resistance_50Hz": 0.06, "reactance_50Hz": 0.197}
+    ],
+    "current_rating": [
+  {
+    "conductor_id": 1,
+    "rural": {
+      "winter": {"still": 121, "wind_1ms": 157, "wind_2ms": 178},
+      "summer": {"still": 87, "wind_1ms": 118, "wind_2ms": 136}
+    },
+    "industrial": {
+      "winter": {"still": 118, "wind_1ms": 153, "wind_2ms": 174},
+      "summer": {"still": 84, "wind_1ms": 115, "wind_2ms": 133}
+    }
+  },
+  {
+    "conductor_id": 2,
+    "rural": {
+      "winter": {"still": 158, "wind_1ms": 205, "wind_2ms": 233},
+      "summer": {"still": 113, "wind_1ms": 153, "wind_2ms": 177}
+    },
+    "industrial": {
+      "winter": {"still": 154, "wind_1ms": 200, "wind_2ms": 228},
+      "summer": {"still": 110, "wind_1ms": 149, "wind_2ms": 173}
+    }
+  },
+  {
+    "conductor_id": 3,
+    "rural": {
+      "winter": {"still": 187, "wind_1ms": 243, "wind_2ms": 276},
+      "summer": {"still": 134, "wind_1ms": 181, "wind_2ms": 210}
+    },
+    "industrial": {
+      "winter": {"still": 183, "wind_1ms": 238, "wind_2ms": 271},
+      "summer": {"still": 131, "wind_1ms": 178, "wind_2ms": 207}
+    }
+  },
+  {
+    "conductor_id": 4,
+    "rural": {
+      "winter": {"still": 219, "wind_1ms": 284, "wind_2ms": 322},
+      "summer": {"still": 157, "wind_1ms": 212, "wind_2ms": 246}
+    },
+    "industrial": {
+      "winter": {"still": 215, "wind_1ms": 279, "wind_2ms": 317},
+      "summer": {"still": 154, "wind_1ms": 209, "wind_2ms": 243}
+    }
+  },
+  {
+    "conductor_id": 5,
+    "rural": {
+      "winter": {"still": 257, "wind_1ms": 333, "wind_2ms": 378},
+      "summer": {"still": 184, "wind_1ms": 249, "wind_2ms": 289}
+    },
+    "industrial": {
+      "winter": {"still": 252, "wind_1ms": 327, "wind_2ms": 372},
+      "summer": {"still": 181, "wind_1ms": 246, "wind_2ms": 286}
+    }
+  },
+  {
+    "conductor_id": 6,
+    "rural": {
+      "winter": {"still": 309, "wind_1ms": 401, "wind_2ms": 455},
+      "summer": {"still": 220, "wind_1ms": 292, "wind_2ms": 338}
+    },
+    "industrial": {
+      "winter": {"still": 304, "wind_1ms": 395, "wind_2ms": 449},
+      "summer": {"still": 217, "wind_1ms": 289, "wind_2ms": 335}
+    }
+  },
+  {
+    "conductor_id": 7,
+    "rural": {
+      "winter": {"still": 356, "wind_1ms": 462, "wind_2ms": 524},
+      "summer": {"still": 253, "wind_1ms": 335, "wind_2ms": 388}
+    },
+    "industrial": {
+      "winter": {"still": 351, "wind_1ms": 456, "wind_2ms": 518},
+      "summer": {"still": 250, "wind_1ms": 332, "wind_2ms": 385}
+    }
+  },
+  {
+    "conductor_id": 8,
+    "rural": {
+      "winter": {"still": 405, "wind_1ms": 525, "wind_2ms": 595},
+      "summer": {"still": 288, "wind_1ms": 381, "wind_2ms": 440}
+    },
+    "industrial": {
+      "winter": {"still": 400, "wind_1ms": 519, "wind_2ms": 589},
+      "summer": {"still": 285, "wind_1ms": 378, "wind_2ms": 437}
+    }
+  }
+    ]
+}

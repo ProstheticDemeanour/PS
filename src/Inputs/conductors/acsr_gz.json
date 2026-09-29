@@ -1,0 +1,181 @@
+{
+    "conductor": [
+  {"id": 1, "type": "ACSR/GZ", "codename": "Almond",  "stranding": "6/2.50 + 1/2.50", "overall_diameter_mm": 7.5,  "area_mm2": 34.4},
+  {"id": 2, "type": "ACSR/GZ", "codename": "Apricot", "stranding": "6/2.75 + 1/2.75", "overall_diameter_mm": 8.3,  "area_mm2": 41.6},
+  {"id": 3, "type": "ACSR/GZ", "codename": "Apple",   "stranding": "6/3.00 + 1/3.00", "overall_diameter_mm": 9.0,  "area_mm2": 49.5},
+  {"id": 4, "type": "ACSR/GZ", "codename": "Banana",  "stranding": "6/3.75 + 1/3.75", "overall_diameter_mm": 11.3, "area_mm2": 77.3},
+  {"id": 5, "type": "ACSR/GZ", "codename": "Cherry",  "stranding": "6/4.50 + 1/4.50", "overall_diameter_mm": 13.5, "area_mm2": 120},
+  {"id": 6, "type": "ACSR/GZ", "codename": "Grape",   "stranding": "20/2.50 + 7/2.50","overall_diameter_mm": 17.5, "area_mm2": 182},
+  {"id": 7, "type": "ACSR/GZ", "codename": "Lemon",   "stranding": "30/2.00 + 7/3.25","overall_diameter_mm": 21.0, "area_mm2": 262},
+  {"id": 8, "type": "ACSR/GZ", "codename": "Lychee",  "stranding": "30/2.25 + 7/3.25","overall_diameter_mm": 22.0, "area_mm2": 307},
+  {"id": 9, "type": "ACSR/GZ", "codename": "Lime",    "stranding": "30/3.50 + 7/3.50","overall_diameter_mm": 24.5, "area_mm2": 356},
+  {"id": 10,"type": "ACSR/GZ", "codename": "Mango",   "stranding": "54/3.00 + 7/3.00","overall_diameter_mm": 27.0, "area_mm2": 431},
+  {"id": 11,"type": "ACSR/GZ", "codename": "Orange",  "stranding": "54/3.25 + 7/3.25","overall_diameter_mm": 29.3, "area_mm2": 506},
+  {"id": 12,"type": "ACSR/GZ", "codename": "Olive",   "stranding": "54/3.50 + 7/3.50","overall_diameter_mm": 31.5, "area_mm2": 587},
+  {"id": 13,"type": "ACSR/GZ", "codename": "Pawpaw",  "stranding": "54/4.25 + 7/4.25","overall_diameter_mm": 38.0, "area_mm2": 672},
+  {"id": 14,"type": "ACSR/GZ", "codename": "Quince",  "stranding": "3/1.75 + 4/1.75", "overall_diameter_mm": 5.3,  "area_mm2": 16.8},
+  {"id": 15,"type": "ACSR/GZ", "codename": "Raisin",  "stranding": "3/2.50 + 4/2.50", "overall_diameter_mm": 7.5,  "area_mm2": 34.4},
+  {"id": 16,"type": "ACSR/GZ", "codename": "Sultana", "stranding": "4/3.00 + 3/3.00", "overall_diameter_mm": 9.0,  "area_mm2": 49.5},
+  {"id": 17,"type": "ACSR/GZ", "codename": "Walnut",  "stranding": "4/3.75 + 3/3.75", "overall_diameter_mm": 11.3, "area_mm2": 77.3}
+    ],
+    "mechanical": [
+  {"conductor_id": 1,  "mass": 119,  "breaking_load": 10.5, "modulus": 83,  "expansion": 19.3},
+  {"conductor_id": 2,  "mass": 144,  "breaking_load": 12.6, "modulus": 83,  "expansion": 19.3},
+  {"conductor_id": 3,  "mass": 171,  "breaking_load": 14.9, "modulus": 83,  "expansion": 19.3},
+  {"conductor_id": 4,  "mass": 268,  "breaking_load": 22.7, "modulus": 83,  "expansion": 19.3},
+  {"conductor_id": 5,  "mass": 402,  "breaking_load": 33.4, "modulus": 83,  "expansion": 19.9},
+  {"conductor_id": 6,  "mass": 677,  "breaking_load": 63.5, "modulus": 88,  "expansion": 18.4},
+  {"conductor_id": 7,  "mass": 973,  "breaking_load": 90.4, "modulus": 88,  "expansion": 18.4},
+  {"conductor_id": 8,  "mass": 1140, "breaking_load": 105,  "modulus": 88,  "expansion": 18.4},
+  {"conductor_id": 9,  "mass": 1320, "breaking_load": 122,  "modulus": 88,  "expansion": 18.4},
+  {"conductor_id": 10, "mass": 1440, "breaking_load": 119,  "modulus": 78,  "expansion": 19.9},
+  {"conductor_id": 11, "mass": 1690, "breaking_load": 137,  "modulus": 78,  "expansion": 19.9},
+  {"conductor_id": 12, "mass": 1960, "breaking_load": 159,  "modulus": 78,  "expansion": 19.9},
+  {"conductor_id": 13, "mass": 2240, "breaking_load": 178,  "modulus": 78,  "expansion": 20.0},
+  {"conductor_id": 14, "mass": 95,   "breaking_load": 12.7, "modulus": 136, "expansion": 13.9},
+  {"conductor_id": 15, "mass": 195,  "breaking_load": 24.4, "modulus": 136, "expansion": 13.9},
+  {"conductor_id": 16, "mass": 243,  "breaking_load": 28.3, "modulus": 119, "expansion": 15.2},
+  {"conductor_id": 17, "mass": 380,  "breaking_load": 43.9, "modulus": 119, "expansion": 15.2}
+    ],
+    "electrical": [
+  {"conductor_id": 1,  "dc_resistance_20C": 0.975, "ac_resistance_50Hz": 1.31,  "reactance_50Hz": 0.296},
+  {"conductor_id": 2,  "dc_resistance_20C": 0.865, "ac_resistance_50Hz": 1.08,  "reactance_50Hz": 0.290},
+  {"conductor_id": 3,  "dc_resistance_20C": 0.677, "ac_resistance_50Hz": 0.91,  "reactance_50Hz": 0.283},
+  {"conductor_id": 4,  "dc_resistance_20C": 0.433, "ac_resistance_50Hz": 0.582, "reactance_50Hz": 0.271},
+  {"conductor_id": 5,  "dc_resistance_20C": 0.238, "ac_resistance_50Hz": 0.317, "reactance_50Hz": 0.257},
+  {"conductor_id": 6,  "dc_resistance_20C": 0.198, "ac_resistance_50Hz": 0.267, "reactance_50Hz": 0.248},
+  {"conductor_id": 7,  "dc_resistance_20C": 0.136, "ac_resistance_50Hz": 0.167, "reactance_50Hz": 0.228},
+  {"conductor_id": 8,  "dc_resistance_20C": 0.118, "ac_resistance_50Hz": 0.145, "reactance_50Hz": 0.219},
+  {"conductor_id": 9,  "dc_resistance_20C": 0.100, "ac_resistance_50Hz": 0.129, "reactance_50Hz": 0.213},
+  {"conductor_id": 10, "dc_resistance_20C": 0.078, "ac_resistance_50Hz": 0.095, "reactance_50Hz": 0.209},
+  {"conductor_id": 11, "dc_resistance_20C": 0.065, "ac_resistance_50Hz": 0.082, "reactance_50Hz": 0.204},
+  {"conductor_id": 12, "dc_resistance_20C": 0.055, "ac_resistance_50Hz": 0.070, "reactance_50Hz": 0.204},
+  {"conductor_id": 13, "dc_resistance_20C": 0.045, "ac_resistance_50Hz": 0.057, "reactance_50Hz": 0.204},
+  {"conductor_id": 14, "dc_resistance_20C": 3.25,  "ac_resistance_50Hz": 4.17,  "reactance_50Hz": 0.256},
+  {"conductor_id": 15, "dc_resistance_20C": 1.95,  "ac_resistance_50Hz": 2.43,  "reactance_50Hz": 0.256},
+  {"conductor_id": 16, "dc_resistance_20C": 1.30,  "ac_resistance_50Hz": 1.62,  "reactance_50Hz": 0.247},
+  {"conductor_id": 17, "dc_resistance_20C": 0.975, "ac_resistance_50Hz": 1.22,  "reactance_50Hz": 0.240}
+    ],
+    "current_rating": [
+  {
+    "conductor_id": 1,
+    "winter_night": {"still": 116, "wind_2ms": 216},
+    "summer_noon": {"still": 167, "wind_2ms": 198},
+    "industrial_winter": {"still": 116, "wind_2ms": 190},
+    "industrial_summer": {"still": 179, "wind_2ms": 195}
+  },
+  {
+    "conductor_id": 2,
+    "winter_night": {"still": 95, "wind_2ms": 188},
+    "summer_noon": {"still": 223, "wind_2ms": 131},
+    "industrial_winter": {"still": 215, "wind_2ms": 248},
+    "industrial_summer": {"still": 89, "wind_2ms": 184}
+  },
+  {
+    "conductor_id": 3,
+    "winter_night": {"still": 107, "wind_2ms": 209},
+    "summer_noon": {"still": 248, "wind_2ms": 148},
+    "industrial_winter": {"still": 240, "wind_2ms": 279},
+    "industrial_summer": {"still": 93, "wind_2ms": 205}
+  },
+  {
+    "conductor_id": 4,
+    "winter_night": {"still": 141, "wind_2ms": 359},
+    "summer_noon": {"still": 274, "wind_2ms": 326},
+    "industrial_winter": {"still": 210, "wind_2ms": 318},
+    "industrial_summer": {"still": 129, "wind_2ms": 268}
+  },
+  {
+    "conductor_id": 5,
+    "winter_night": {"still": 191, "wind_2ms": 458},
+    "summer_noon": {"still": 364, "wind_2ms": 284},
+    "industrial_winter": {"still": 301, "wind_2ms": 430},
+    "industrial_summer": {"still": 173, "wind_2ms": 384}
+  },
+  {
+    "conductor_id": 6,
+    "winter_night": {"still": 231, "wind_2ms": 640},
+    "summer_noon": {"still": 531, "wind_2ms": 368},
+    "industrial_winter": {"still": 502, "wind_2ms": 617},
+    "industrial_summer": {"still": 211, "wind_2ms": 456}
+  },
+  {
+    "conductor_id": 7,
+    "winter_night": {"still": 307, "wind_2ms": 787},
+    "summer_noon": {"still": 585, "wind_2ms": 398},
+    "industrial_winter": {"still": 482, "wind_2ms": 707},
+    "industrial_summer": {"still": 269, "wind_2ms": 567}
+  },
+  {
+    "conductor_id": 8,
+    "winter_night": {"still": 331, "wind_2ms": 850},
+    "summer_noon": {"still": 637, "wind_2ms": 433},
+    "industrial_winter": {"still": 540, "wind_2ms": 752},
+    "industrial_summer": {"still": 298, "wind_2ms": 623}
+  },
+  {
+    "conductor_id": 9,
+    "winter_night": {"still": 377, "wind_2ms": 976},
+    "summer_noon": {"still": 706, "wind_2ms": 495},
+    "industrial_winter": {"still": 601, "wind_2ms": 862},
+    "industrial_summer": {"still": 328, "wind_2ms": 681}
+  },
+    {
+    "conductor_id": 10,
+    "winter_night": {"still": 485, "wind_2ms": 1147},
+    "summer_noon": {"still": 816, "wind_2ms": 618},
+    "industrial_winter": {"still": 911, "wind_2ms": 1003},
+    "industrial_summer": {"still": 423, "wind_2ms": 786}
+  },
+  {
+    "conductor_id": 11,
+    "winter_night": {"still": 547, "wind_2ms": 1295},
+    "summer_noon": {"still": 918, "wind_2ms": 695},
+    "industrial_winter": {"still": 1060, "wind_2ms": 1132},
+    "industrial_summer": {"still": 480, "wind_2ms": 861}
+  },
+  {
+    "conductor_id": 12,
+    "winter_night": {"still": 543, "wind_2ms": 1421},
+    "summer_noon": {"still": 988, "wind_2ms": 841},
+    "industrial_winter": {"still": 1225, "wind_2ms": 984},
+    "industrial_summer": {"still": 466, "wind_2ms": 941}
+  },
+  {
+    "conductor_id": 13,
+    "winter_night": {"still": 655, "wind_2ms": 1655},
+    "summer_noon": {"still": 1095, "wind_2ms": 1005},
+    "industrial_winter": {"still": 1284, "wind_2ms": 1333},
+    "industrial_summer": {"still": 530, "wind_2ms": 1023}
+  },
+  {
+    "conductor_id": 14,
+    "winter_night": {"still": 56, "wind_2ms": 109},
+    "summer_noon": {"still": 105, "wind_2ms": 56},
+    "industrial_winter": {"still": 195, "wind_2ms": 110},
+    "industrial_summer": {"still": 40, "wind_2ms": 83}
+  },
+  {
+    "conductor_id": 15,
+    "winter_night": {"still": 83, "wind_2ms": 195},
+    "summer_noon": {"still": 110, "wind_2ms": 56},
+    "industrial_winter": {"still": 195, "wind_2ms": 110},
+    "industrial_summer": {"still": 40, "wind_2ms": 83}
+  },
+  {
+    "conductor_id": 16,
+    "winter_night": {"still": 99, "wind_2ms": 243},
+    "summer_noon": {"still": 130, "wind_2ms": 62},
+    "industrial_winter": {"still": 247, "wind_2ms": 300},
+    "industrial_summer": {"still": 52, "wind_2ms": 120}
+  },
+  {
+    "conductor_id": 17,
+    "winter_night": {"still": 129, "wind_2ms": 268},
+    "summer_noon": {"still": 321, "wind_2ms": 210},
+    "industrial_winter": {"still": 318, "wind_2ms": 367},
+    "industrial_summer": {"still": 129, "wind_2ms": 268}
+  }
+    ]
+
+}
