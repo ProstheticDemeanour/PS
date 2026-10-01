@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\KurejsepiD\OneDrive - AECOM\Documents\30 Engineering\31 Source\PS\build\CMakeFiles\671f1b757f8d00bd86e5efac2a7e9eaf\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DE933081-69A7-3EE5-A629-E106F893A90B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

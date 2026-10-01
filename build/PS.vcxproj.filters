@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\KurejsepiD\OneDrive - AECOM\Documents\30 Engineering\31 Source\PS\src\core\ps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\KurejsepiD\OneDrive - AECOM\Documents\30 Engineering\31 Source\PS\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\KurejsepiD\OneDrive - AECOM\Documents\30 Engineering\31 Source\PS\build\_deps\nlohmann_json-src\nlohmann_json.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A59DA968-DDA4-3E3E-8A81-E809C7FFAEA3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
