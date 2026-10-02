@@ -1,0 +1,10 @@
+^C:\USERS\KUREJSEPID\ONEDRIVE - AECOM\DOCUMENTS\30 ENGINEERING\31 SOURCE\PS\BUILD\CMAKEFILES\671F1B757F8D00BD86E5EFAC2A7E9EAF\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS" "-BC:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/psc.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

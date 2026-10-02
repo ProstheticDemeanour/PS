@@ -1,0 +1,10 @@
+^C:\USERS\KUREJSEPID\ONEDRIVE - AECOM\DOCUMENTS\30 ENGINEERING\31 SOURCE\PS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS" "-BC:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build" --check-stamp-file "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

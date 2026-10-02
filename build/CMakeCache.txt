@@ -95,7 +95,7 @@ CMAKE_INSTALL_MANDIR:PATH=
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/PS
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/psc
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -145,7 +145,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=PS
+CMAKE_PROJECT_NAME:STATIC=psc
 
 //Value Computed by CMake
 CMAKE_PROJECT_SPDX_LICENSE:STATIC=
@@ -287,15 +287,6 @@ JSON_MultipleHeaders:BOOL=ON
 JSON_SystemInclude:BOOL=OFF
 
 //Value Computed by CMake
-PS_BINARY_DIR:STATIC=C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build
-
-//Value Computed by CMake
-PS_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-PS_SOURCE_DIR:STATIC=C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS
-
-//Value Computed by CMake
 nlohmann_json_BINARY_DIR:STATIC=C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/_deps/nlohmann_json-build
 
 //Value Computed by CMake
@@ -303,6 +294,15 @@ nlohmann_json_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 nlohmann_json_SOURCE_DIR:STATIC=C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/_deps/nlohmann_json-src
+
+//Value Computed by CMake
+psc_BINARY_DIR:STATIC=C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build
+
+//Value Computed by CMake
+psc_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+psc_SOURCE_DIR:STATIC=C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS
 
 
 ########################
@@ -466,7 +466,7 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 CMAKE_WARN_DEPRECATED:INTERNAL=ON
 NLOHMANN_JSON_CONFIG_INSTALL_DIR:INTERNAL=share/cmake/nlohmann_json
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/PS
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/psc
 //Redirected by FetchContent
 nlohmann_json_DIR:INTERNAL=C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/pkgRedirects
 

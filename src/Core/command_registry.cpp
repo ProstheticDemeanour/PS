@@ -16,7 +16,7 @@ void CommandRegistry::registerCommand(std::unique_ptr<BaseCommand> command) {
 	//check for duplicate commands
 	if (commands.find(name) != commands.end()) {
 
-		std::cerr << "Warning: Command" << name << "is already registered. Overwriting, \n";
+		std::cerr << "Warning: Command '" << name << "' is already registered. Overwriting.\n";
 	}
 
 	//store the command
@@ -49,10 +49,10 @@ void CommandRegistry::listCommands() const {
 }
 
 void CommandRegistry::showGlobalHelp() const {
-    std::cout << "Dataknot Financial Analysis Tool\n\n";
-    std::cout << "Usage: dataknot <command> [options]\n\n";
+    std::cout << "PowerSystems CLI\n\n";
+    std::cout << "Usage: ps <command> [options]\n\n";
     listCommands();
-    std::cout << "\nUse 'dataknot <command> --help' for help on a specific command.\n";
+    std::cout << "\nUse 'ps <command> --help' for help on a specific command.\n";
 }
 
 std::vector<std::string> CommandRegistry::getCommandNames() const {

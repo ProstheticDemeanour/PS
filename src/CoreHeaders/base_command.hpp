@@ -3,7 +3,7 @@
 
 #include <vector>
 #include <string>
-#include "config.h"
+struct SoftwareConfig;
 
 class BaseCommand {
 protected:

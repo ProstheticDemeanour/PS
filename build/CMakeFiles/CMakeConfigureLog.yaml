@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:5 (project)"
     message: |
       The system is: Windows - 10.0.26200 - AMD64
   -
@@ -16,7 +16,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -67,7 +67,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler:  
@@ -77,7 +77,7 @@ events:
       The output was:
       0
       MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
-      Build started 1/10/2026 11:11:16 AM.
+      Build started 2/10/2026 10:17:20 AM.
       
       Project "C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\4.4.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -106,7 +106,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.86
+      Time Elapsed 00:00:00.80
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -123,7 +123,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "_CMAKE_TOOL_WITH_PATH"
     description: "Path to a program."
@@ -203,7 +203,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "_CMAKE_TOOL_WITH_PATH"
     description: "Path to a program."
@@ -361,7 +361,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -439,7 +439,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_MT"
     description: "Path to a program."
@@ -597,7 +597,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -678,7 +678,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake:48 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_RC_COMPILER"
     description: "RC compiler"
@@ -728,9 +728,9 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/sbin/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/PS/bin/"
-      - "C:/Program Files (x86)/PS/sbin/"
-      - "C:/Program Files (x86)/PS/"
+      - "C:/Program Files (x86)/psc/bin/"
+      - "C:/Program Files (x86)/psc/sbin/"
+      - "C:/Program Files (x86)/psc/"
     searched_directories:
       - "C:/Windows/CCM/rc.com"
       - "C:/Windows/CCM/rc.exe"
@@ -837,15 +837,15 @@ events:
       - "C:/Program Files/CMake/rc.com"
       - "C:/Program Files/CMake/rc.exe"
       - "C:/Program Files/CMake/rc"
-      - "C:/Program Files (x86)/PS/bin/rc.com"
-      - "C:/Program Files (x86)/PS/bin/rc.exe"
-      - "C:/Program Files (x86)/PS/bin/rc"
-      - "C:/Program Files (x86)/PS/sbin/rc.com"
-      - "C:/Program Files (x86)/PS/sbin/rc.exe"
-      - "C:/Program Files (x86)/PS/sbin/rc"
-      - "C:/Program Files (x86)/PS/rc.com"
-      - "C:/Program Files (x86)/PS/rc.exe"
-      - "C:/Program Files (x86)/PS/rc"
+      - "C:/Program Files (x86)/psc/bin/rc.com"
+      - "C:/Program Files (x86)/psc/bin/rc.exe"
+      - "C:/Program Files (x86)/psc/bin/rc"
+      - "C:/Program Files (x86)/psc/sbin/rc.com"
+      - "C:/Program Files (x86)/psc/sbin/rc.exe"
+      - "C:/Program Files (x86)/psc/sbin/rc"
+      - "C:/Program Files (x86)/psc/rc.com"
+      - "C:/Program Files (x86)/psc/rc.exe"
+      - "C:/Program Files (x86)/psc/rc"
     found: false
     search_context:
       ENV{PATH}:
@@ -875,23 +875,23 @@ events:
         - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe\\syncthing-windows-amd64-v2.1.5"
         - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe\\yazi-x86_64-pc-windows-msvc"
         - "C:\\Users\\KurejsepiD\\AppData\\Roaming\\npm"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PS"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/psc"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/PS"
+        - "C:/Program Files (x86)/psc"
   -
     kind: "try_compile-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:5 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-q6z6jc"
-      binary: "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-q6z6jc"
+      source: "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-ttyd0r"
+      binary: "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-ttyd0r"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -902,39 +902,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-q6z6jc'
+        Change Dir: 'C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-ttyd0r'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2878f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4b384.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
-        Build started 1/10/2026 11:11:17 AM.
+        Build started 2/10/2026 10:17:21 AM.
         
-        Project "C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q6z6jc\\cmTC_2878f.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttyd0r\\cmTC_4b384.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q6z6jc\\Debug\\".
-          Creating directory "cmTC_2878f.dir\\Debug\\cmTC_2878f.tlog\\".
+          Creating directory "C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttyd0r\\Debug\\".
+          Creating directory "cmTC_4b384.dir\\Debug\\cmTC_4b384.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_2878f.dir\\Debug\\cmTC_2878f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_2878f.dir\\Debug\\cmTC_2878f.tlog\\unsuccessfulbuild".
+          Creating "cmTC_4b384.dir\\Debug\\cmTC_4b384.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4b384.dir\\Debug\\cmTC_4b384.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_2878f.dir\\Debug\\\\" /Fd"cmTC_2878f.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_4b384.dir\\Debug\\\\" /Fd"cmTC_4b384.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36257 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_2878f.dir\\Debug\\\\" /Fd"cmTC_2878f.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_4b384.dir\\Debug\\\\" /Fd"cmTC_4b384.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q6z6jc\\Debug\\cmTC_2878f.exe" /INCREMENTAL /ILK:"cmTC_2878f.dir\\Debug\\cmTC_2878f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-q6z6jc/Debug/cmTC_2878f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-q6z6jc/Debug/cmTC_2878f.lib" /MACHINE:X64  /machine:x64 cmTC_2878f.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_2878f.vcxproj -> C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q6z6jc\\Debug\\cmTC_2878f.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttyd0r\\Debug\\cmTC_4b384.exe" /INCREMENTAL /ILK:"cmTC_4b384.dir\\Debug\\cmTC_4b384.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-ttyd0r/Debug/cmTC_4b384.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-ttyd0r/Debug/cmTC_4b384.lib" /MACHINE:X64  /machine:x64 cmTC_4b384.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_4b384.vcxproj -> C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttyd0r\\Debug\\cmTC_4b384.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_2878f.dir\\Debug\\cmTC_2878f.tlog\\unsuccessfulbuild".
-          Touching "cmTC_2878f.dir\\Debug\\cmTC_2878f.tlog\\cmTC_2878f.lastbuildstate".
-        Done Building Project "C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q6z6jc\\cmTC_2878f.vcxproj" (default targets).
+          Deleting file "cmTC_4b384.dir\\Debug\\cmTC_4b384.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4b384.dir\\Debug\\cmTC_4b384.tlog\\cmTC_4b384.lastbuildstate".
+        Done Building Project "C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttyd0r\\cmTC_4b384.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.74
+        Time Elapsed 00:00:00.68
         
       exitCode: 0
   -
@@ -942,12 +942,12 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        link line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q6z6jc\\Debug\\cmTC_2878f.exe" /INCREMENTAL /ILK:"cmTC_2878f.dir\\Debug\\cmTC_2878f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-q6z6jc/Debug/cmTC_2878f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-q6z6jc/Debug/cmTC_2878f.lib" /MACHINE:X64  /machine:x64 cmTC_2878f.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        link line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttyd0r\\Debug\\cmTC_4b384.exe" /INCREMENTAL /ILK:"cmTC_4b384.dir\\Debug\\cmTC_4b384.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-ttyd0r/Debug/cmTC_4b384.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-ttyd0r/Debug/cmTC_4b384.lib" /MACHINE:X64  /machine:x64 cmTC_4b384.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
         linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
         implicit libs: []
         implicit objs: []
@@ -961,21 +961,17 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.51.36257.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
-...
-
----
-events:
   -
     kind: "find_package-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/FetchContent.cmake:2501 (find_package)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/FetchContent.cmake:2379 (__FetchContent_MakeAvailable_find_package)"
-      - "CMakeLists.txt:24 (FetchContent_MakeAvailable)"
+      - "CMakeLists.txt:28 (FetchContent_MakeAvailable)"
     name: "nlohmann_json"
     configs:
       -
@@ -1481,10 +1477,10 @@ events:
         - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe\\syncthing-windows-amd64-v2.1.5"
         - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe\\yazi-x86_64-pc-windows-msvc"
         - "C:\\Users\\KurejsepiD\\AppData\\Roaming\\npm"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/PS"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/psc"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/PS"
+        - "C:/Program Files (x86)/psc"
 ...
