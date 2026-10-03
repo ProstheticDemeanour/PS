@@ -1,8 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/cmake_install.cmake",
-		"C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/_deps/nlohmann_json-build/cmake_install.cmake"
+		"/Users/denankurejsepi/Documents/Engineering/Source/PS/build/cmake_install.cmake",
+		"/Users/denankurejsepi/Documents/Engineering/Source/PS/build/_deps/nlohmann_json-build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

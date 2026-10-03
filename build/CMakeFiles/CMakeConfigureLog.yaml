@@ -2,27 +2,260 @@
 ---
 events:
   -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/denankurejsepi/.pyenv/shims/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/denankurejsepi/.local/bin/"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/"
+      - "/Users/denankurejsepi/go/bin/"
+      - "/Applications/Obsidian.app/Contents/MacOS/"
+    searched_directories:
+      - "/Users/denankurejsepi/.pyenv/shims/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
+  -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
       - "CMakeLists.txt:5 (project)"
     message: |
-      The system is: Windows - 10.0.26200 - AMD64
+      The system is: Darwin - 27.0.0 - arm64
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/Users/denankurejsepi/.pyenv/shims/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/denankurejsepi/.local/bin/"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/"
+      - "/Users/denankurejsepi/go/bin/"
+      - "/Applications/Obsidian.app/Contents/MacOS/"
+    searched_directories:
+      - "/Users/denankurejsepi/.pyenv/shims/gmake"
+      - "/opt/homebrew/bin/gmake"
+      - "/opt/homebrew/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/pkg/env/global/bin/gmake"
+      - "/Library/Apple/usr/bin/gmake"
+      - "/Library/TeX/texbin/gmake"
+      - "/Users/denankurejsepi/.local/bin/gmake"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/gmake"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/gmake"
+      - "/Users/denankurejsepi/go/bin/gmake"
+      - "/Applications/Obsidian.app/Contents/MacOS/gmake"
+      - "/Users/denankurejsepi/.pyenv/shims/make"
+      - "/opt/homebrew/bin/make"
+      - "/opt/homebrew/sbin/make"
+      - "/usr/local/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/Users/denankurejsepi/.pyenv/shims/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/denankurejsepi/.local/bin/"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/"
+      - "/Users/denankurejsepi/go/bin/"
+      - "/Applications/Obsidian.app/Contents/MacOS/"
+    searched_directories:
+      - "/Users/denankurejsepi/.pyenv/shims/c++"
+      - "/opt/homebrew/bin/c++"
+      - "/opt/homebrew/sbin/c++"
+      - "/usr/local/bin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:5 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
     settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
       CMAKE_FIND_USE_CMAKE_PATH: true
       CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
       CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
@@ -31,946 +264,1175 @@ events:
     names:
       - "CMakeCXXCompilerId.cpp.in"
     candidate_directories:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
-    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\CCM\\"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files\\Adaptiva\\AdaptivaClient\\bin\\x86"
-        - "C:\\Program Files\\Adaptiva\\AdaptivaClient\\bin\\amd64"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\ServiceNow\\agent-client-collector\\bin"
-        - "C:\\Program Files\\ServiceNow\\agent-client-collector\\embedded\\bin"
-        - "C:\\Users\\KurejsepiD\\.cargo\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Python\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Programs\\Git\\cmd"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe\\syncthing-windows-amd64-v2.1.5"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe\\yazi-x86_64-pc-windows-msvc"
-        - "C:\\Users\\KurejsepiD\\AppData\\Roaming\\npm"
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler:  
+      Compiler: /usr/bin/c++ 
       Build flags: 
       Id flags:  
       
       The output was:
       0
-      MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
-      Build started 2/10/2026 10:17:20 AM.
-      
-      Project "C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\4.4.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
-      PrepareForBuild:
-        Creating directory "Debug\\".
-        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-        Creating directory "Debug\\CompilerIdCXX.tlog\\".
-      InitializeBuildStatus:
-        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-      ClCompile:
-        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
-        CMakeCXXCompilerId.cpp
-      Link:
-        C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\4.4.3\\CompilerIdCXX\\CompilerIdCXX.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\4.4.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
-      
-      Build succeeded.
-          0 Warning(s)
-          0 Error(s)
-      
-      Time Elapsed 00:00:00.80
       
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-      
-      The CXX compiler identification is MSVC, found in:
-        C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/4.4.3/CompilerIdCXX/CompilerIdCXX.exe
+      The CXX compiler identification is AppleClang, found in:
+        /Users/denankurejsepi/Documents/Engineering/Source/PS/build/CMakeFiles/4.4.3/CompilerIdCXX/a.out
       
   -
-    kind: "find-v1"
+    kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:323 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "_CMAKE_TOOL_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "link"
-    candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Windows/CCM/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/ServiceNow/agent-client-collector/bin/"
-      - "C:/Program Files/ServiceNow/agent-client-collector/embedded/bin/"
-      - "C:/Users/KurejsepiD/.cargo/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Python/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/"
-      - "C:/Users/KurejsepiD/AppData/Roaming/npm/"
-    searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
-    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
-    search_context:
-      ENV{PATH}:
-        - "C:\\WINDOWS\\CCM\\"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files\\Adaptiva\\AdaptivaClient\\bin\\x86"
-        - "C:\\Program Files\\Adaptiva\\AdaptivaClient\\bin\\amd64"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\ServiceNow\\agent-client-collector\\bin"
-        - "C:\\Program Files\\ServiceNow\\agent-client-collector\\embedded\\bin"
-        - "C:\\Users\\KurejsepiD\\.cargo\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Python\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Programs\\Git\\cmd"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe\\syncthing-windows-amd64-v2.1.5"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe\\yazi-x86_64-pc-windows-msvc"
-        - "C:\\Users\\KurejsepiD\\AppData\\Roaming\\npm"
+    message: |
+      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
+        # 1 "apple-sdk.cpp"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 533 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.cpp" 2
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 89 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 90 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h" 1 3 4
+        # 91 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 207 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 196 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 197 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 33 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 34 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 2 3 4
+        # 198 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 34 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 35 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 2 3 4
+        # 199 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 208 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.cpp" 2
+        
+        
+      Found apple sysroot: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "_CMAKE_TOOL_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "lld-link"
-    candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Windows/CCM/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/ServiceNow/agent-client-collector/bin/"
-      - "C:/Program Files/ServiceNow/agent-client-collector/embedded/bin/"
-      - "C:/Users/KurejsepiD/.cargo/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Python/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/"
-      - "C:/Users/KurejsepiD/AppData/Roaming/npm/"
-    searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
-      - "C:/Windows/CCM/lld-link.com"
-      - "C:/Windows/CCM/lld-link.exe"
-      - "C:/Windows/CCM/lld-link"
-      - "C:/Windows/System32/lld-link.com"
-      - "C:/Windows/System32/lld-link.exe"
-      - "C:/Windows/System32/lld-link"
-      - "C:/Windows/lld-link.com"
-      - "C:/Windows/lld-link.exe"
-      - "C:/Windows/lld-link"
-      - "C:/Windows/System32/wbem/lld-link.com"
-      - "C:/Windows/System32/wbem/lld-link.exe"
-      - "C:/Windows/System32/wbem/lld-link"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
-      - "C:/Windows/System32/OpenSSH/lld-link.com"
-      - "C:/Windows/System32/OpenSSH/lld-link.exe"
-      - "C:/Windows/System32/OpenSSH/lld-link"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.com"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/lld-link"
-      - "C:/Program Files/dotnet/lld-link.com"
-      - "C:/Program Files/dotnet/lld-link.exe"
-      - "C:/Program Files/dotnet/lld-link"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/lld-link.com"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/lld-link.exe"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/lld-link"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/lld-link.com"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/lld-link.exe"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/lld-link"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
-      - "C:/Program Files/CMake/bin/lld-link.com"
-      - "C:/Program Files/CMake/bin/lld-link.exe"
-      - "C:/Program Files/CMake/bin/lld-link"
-      - "C:/Program Files/nodejs/lld-link.com"
-      - "C:/Program Files/nodejs/lld-link.exe"
-      - "C:/Program Files/nodejs/lld-link"
-      - "C:/Program Files/ServiceNow/agent-client-collector/bin/lld-link.com"
-      - "C:/Program Files/ServiceNow/agent-client-collector/bin/lld-link.exe"
-      - "C:/Program Files/ServiceNow/agent-client-collector/bin/lld-link"
-      - "C:/Program Files/ServiceNow/agent-client-collector/embedded/bin/lld-link.com"
-      - "C:/Program Files/ServiceNow/agent-client-collector/embedded/bin/lld-link.exe"
-      - "C:/Program Files/ServiceNow/agent-client-collector/embedded/bin/lld-link"
-      - "C:/Users/KurejsepiD/.cargo/bin/lld-link.com"
-      - "C:/Users/KurejsepiD/.cargo/bin/lld-link.exe"
-      - "C:/Users/KurejsepiD/.cargo/bin/lld-link"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/lld-link.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/lld-link"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
-      - "C:/Users/KurejsepiD/AppData/Local/Python/bin/lld-link.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Python/bin/lld-link.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Python/bin/lld-link"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/lld-link.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/lld-link.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/lld-link"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/lld-link.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/lld-link.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/lld-link"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/lld-link.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/lld-link.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/lld-link"
-      - "C:/Users/KurejsepiD/AppData/Roaming/npm/lld-link.com"
-      - "C:/Users/KurejsepiD/AppData/Roaming/npm/lld-link.exe"
-      - "C:/Users/KurejsepiD/AppData/Roaming/npm/lld-link"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "C:\\WINDOWS\\CCM\\"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files\\Adaptiva\\AdaptivaClient\\bin\\x86"
-        - "C:\\Program Files\\Adaptiva\\AdaptivaClient\\bin\\amd64"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\ServiceNow\\agent-client-collector\\bin"
-        - "C:\\Program Files\\ServiceNow\\agent-client-collector\\embedded\\bin"
-        - "C:\\Users\\KurejsepiD\\.cargo\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Python\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Programs\\Git\\cmd"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe\\syncthing-windows-amd64-v2.1.5"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe\\yazi-x86_64-pc-windows-msvc"
-        - "C:\\Users\\KurejsepiD\\AppData\\Roaming\\npm"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "CMAKE_LINKER"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "link"
-    candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Windows/CCM/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/ServiceNow/agent-client-collector/bin/"
-      - "C:/Program Files/ServiceNow/agent-client-collector/embedded/bin/"
-      - "C:/Users/KurejsepiD/.cargo/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Python/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/"
-      - "C:/Users/KurejsepiD/AppData/Roaming/npm/"
-    searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
-    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
-    search_context:
-      ENV{PATH}:
-        - "C:\\WINDOWS\\CCM\\"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files\\Adaptiva\\AdaptivaClient\\bin\\x86"
-        - "C:\\Program Files\\Adaptiva\\AdaptivaClient\\bin\\amd64"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\ServiceNow\\agent-client-collector\\bin"
-        - "C:\\Program Files\\ServiceNow\\agent-client-collector\\embedded\\bin"
-        - "C:\\Users\\KurejsepiD\\.cargo\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Python\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Programs\\Git\\cmd"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe\\syncthing-windows-amd64-v2.1.5"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe\\yazi-x86_64-pc-windows-msvc"
-        - "C:\\Users\\KurejsepiD\\AppData\\Roaming\\npm"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "CMAKE_MT"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "mt"
-    candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Windows/CCM/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/ServiceNow/agent-client-collector/bin/"
-      - "C:/Program Files/ServiceNow/agent-client-collector/embedded/bin/"
-      - "C:/Users/KurejsepiD/.cargo/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Python/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/"
-      - "C:/Users/KurejsepiD/AppData/Roaming/npm/"
-    searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
-      - "C:/Windows/CCM/mt.com"
-      - "C:/Windows/CCM/mt.exe"
-      - "C:/Windows/CCM/mt"
-      - "C:/Windows/System32/mt.com"
-      - "C:/Windows/System32/mt.exe"
-      - "C:/Windows/System32/mt"
-      - "C:/Windows/mt.com"
-      - "C:/Windows/mt.exe"
-      - "C:/Windows/mt"
-      - "C:/Windows/System32/wbem/mt.com"
-      - "C:/Windows/System32/wbem/mt.exe"
-      - "C:/Windows/System32/wbem/mt"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
-      - "C:/Windows/System32/OpenSSH/mt.com"
-      - "C:/Windows/System32/OpenSSH/mt.exe"
-      - "C:/Windows/System32/OpenSSH/mt"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt.com"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt.exe"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/mt"
-      - "C:/Program Files/dotnet/mt.com"
-      - "C:/Program Files/dotnet/mt.exe"
-      - "C:/Program Files/dotnet/mt"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/mt.com"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/mt.exe"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/mt"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/mt.com"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/mt.exe"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/mt"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
-      - "C:/Program Files/CMake/bin/mt.com"
-      - "C:/Program Files/CMake/bin/mt.exe"
-      - "C:/Program Files/CMake/bin/mt"
-      - "C:/Program Files/nodejs/mt.com"
-      - "C:/Program Files/nodejs/mt.exe"
-      - "C:/Program Files/nodejs/mt"
-      - "C:/Program Files/ServiceNow/agent-client-collector/bin/mt.com"
-      - "C:/Program Files/ServiceNow/agent-client-collector/bin/mt.exe"
-      - "C:/Program Files/ServiceNow/agent-client-collector/bin/mt"
-      - "C:/Program Files/ServiceNow/agent-client-collector/embedded/bin/mt.com"
-      - "C:/Program Files/ServiceNow/agent-client-collector/embedded/bin/mt.exe"
-      - "C:/Program Files/ServiceNow/agent-client-collector/embedded/bin/mt"
-      - "C:/Users/KurejsepiD/.cargo/bin/mt.com"
-      - "C:/Users/KurejsepiD/.cargo/bin/mt.exe"
-      - "C:/Users/KurejsepiD/.cargo/bin/mt"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/mt.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/mt.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/mt"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/bin/mt"
-      - "C:/Users/KurejsepiD/AppData/Local/Python/bin/mt.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Python/bin/mt.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Python/bin/mt"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/mt"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/mt.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/mt.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/mt"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/mt.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/mt.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/mt"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/mt.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/mt.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/mt"
-      - "C:/Users/KurejsepiD/AppData/Roaming/npm/mt.com"
-      - "C:/Users/KurejsepiD/AppData/Roaming/npm/mt.exe"
-      - "C:/Users/KurejsepiD/AppData/Roaming/npm/mt"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "C:\\WINDOWS\\CCM\\"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files\\Adaptiva\\AdaptivaClient\\bin\\x86"
-        - "C:\\Program Files\\Adaptiva\\AdaptivaClient\\bin\\amd64"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\ServiceNow\\agent-client-collector\\bin"
-        - "C:\\Program Files\\ServiceNow\\agent-client-collector\\embedded\\bin"
-        - "C:\\Users\\KurejsepiD\\.cargo\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Python\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Programs\\Git\\cmd"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe\\syncthing-windows-amd64-v2.1.5"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe\\yazi-x86_64-pc-windows-msvc"
-        - "C:\\Users\\KurejsepiD\\AppData\\Roaming\\npm"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
     settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
       CMAKE_FIND_USE_CMAKE_PATH: false
       CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
       CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "lib"
+      - "ar"
     candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Windows/CCM/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/ServiceNow/agent-client-collector/bin/"
-      - "C:/Program Files/ServiceNow/agent-client-collector/embedded/bin/"
-      - "C:/Users/KurejsepiD/.cargo/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Python/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/"
-      - "C:/Users/KurejsepiD/AppData/Roaming/npm/"
-    searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
-    found: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+      - "/usr/bin/"
+      - "/Users/denankurejsepi/.pyenv/shims/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/denankurejsepi/.local/bin/"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/"
+      - "/Users/denankurejsepi/go/bin/"
+      - "/Applications/Obsidian.app/Contents/MacOS/"
+    found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\CCM\\"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files\\Adaptiva\\AdaptivaClient\\bin\\x86"
-        - "C:\\Program Files\\Adaptiva\\AdaptivaClient\\bin\\amd64"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\ServiceNow\\agent-client-collector\\bin"
-        - "C:\\Program Files\\ServiceNow\\agent-client-collector\\embedded\\bin"
-        - "C:\\Users\\KurejsepiD\\.cargo\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Python\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Programs\\Git\\cmd"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe\\syncthing-windows-amd64-v2.1.5"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe\\yazi-x86_64-pc-windows-msvc"
-        - "C:\\Users\\KurejsepiD\\AppData\\Roaming\\npm"
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
-    variable: "CMAKE_RC_COMPILER"
-    description: "RC compiler"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
     settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/denankurejsepi/.pyenv/shims/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/denankurejsepi/.local/bin/"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/"
+      - "/Users/denankurejsepi/go/bin/"
+      - "/Applications/Obsidian.app/Contents/MacOS/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/denankurejsepi/.pyenv/shims/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/denankurejsepi/.local/bin/"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/"
+      - "/Users/denankurejsepi/go/bin/"
+      - "/Applications/Obsidian.app/Contents/MacOS/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/denankurejsepi/.pyenv/shims/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/denankurejsepi/.local/bin/"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/"
+      - "/Users/denankurejsepi/go/bin/"
+      - "/Applications/Obsidian.app/Contents/MacOS/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/denankurejsepi/.pyenv/shims/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/denankurejsepi/.local/bin/"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/"
+      - "/Users/denankurejsepi/go/bin/"
+      - "/Applications/Obsidian.app/Contents/MacOS/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/denankurejsepi/.pyenv/shims/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/denankurejsepi/.local/bin/"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/"
+      - "/Users/denankurejsepi/go/bin/"
+      - "/Applications/Obsidian.app/Contents/MacOS/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/denankurejsepi/.pyenv/shims/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/denankurejsepi/.local/bin/"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/"
+      - "/Users/denankurejsepi/go/bin/"
+      - "/Applications/Obsidian.app/Contents/MacOS/"
+    searched_directories:
+      - "/usr/bin/objcopy"
+      - "/Users/denankurejsepi/.pyenv/shims/objcopy"
+      - "/opt/homebrew/bin/objcopy"
+      - "/opt/homebrew/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+      - "/pkg/env/global/bin/objcopy"
+      - "/Library/Apple/usr/bin/objcopy"
+      - "/Library/TeX/texbin/objcopy"
+      - "/Users/denankurejsepi/.local/bin/objcopy"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/objcopy"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/objcopy"
+      - "/Users/denankurejsepi/go/bin/objcopy"
+      - "/Applications/Obsidian.app/Contents/MacOS/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/denankurejsepi/.pyenv/shims/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/denankurejsepi/.local/bin/"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/"
+      - "/Users/denankurejsepi/go/bin/"
+      - "/Applications/Obsidian.app/Contents/MacOS/"
+    searched_directories:
+      - "/usr/bin/readelf"
+      - "/Users/denankurejsepi/.pyenv/shims/readelf"
+      - "/opt/homebrew/bin/readelf"
+      - "/opt/homebrew/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+      - "/pkg/env/global/bin/readelf"
+      - "/Library/Apple/usr/bin/readelf"
+      - "/Library/TeX/texbin/readelf"
+      - "/Users/denankurejsepi/.local/bin/readelf"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/readelf"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/readelf"
+      - "/Users/denankurejsepi/go/bin/readelf"
+      - "/Applications/Obsidian.app/Contents/MacOS/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/denankurejsepi/.pyenv/shims/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/denankurejsepi/.local/bin/"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/"
+      - "/Users/denankurejsepi/go/bin/"
+      - "/Applications/Obsidian.app/Contents/MacOS/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/Users/denankurejsepi/.pyenv/shims/dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/pkg/env/global/bin/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+      - "/Library/TeX/texbin/dlltool"
+      - "/Users/denankurejsepi/.local/bin/dlltool"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/dlltool"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/dlltool"
+      - "/Users/denankurejsepi/go/bin/dlltool"
+      - "/Applications/Obsidian.app/Contents/MacOS/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/denankurejsepi/.pyenv/shims/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/denankurejsepi/.local/bin/"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/"
+      - "/Users/denankurejsepi/go/bin/"
+      - "/Applications/Obsidian.app/Contents/MacOS/"
+    searched_directories:
+      - "/usr/bin/addr2line"
+      - "/Users/denankurejsepi/.pyenv/shims/addr2line"
+      - "/opt/homebrew/bin/addr2line"
+      - "/opt/homebrew/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+      - "/pkg/env/global/bin/addr2line"
+      - "/Library/Apple/usr/bin/addr2line"
+      - "/Library/TeX/texbin/addr2line"
+      - "/Users/denankurejsepi/.local/bin/addr2line"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/addr2line"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/addr2line"
+      - "/Users/denankurejsepi/go/bin/addr2line"
+      - "/Applications/Obsidian.app/Contents/MacOS/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/denankurejsepi/.pyenv/shims/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/denankurejsepi/.local/bin/"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/"
+      - "/Users/denankurejsepi/go/bin/"
+      - "/Applications/Obsidian.app/Contents/MacOS/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/Users/denankurejsepi/.pyenv/shims/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/opt/homebrew/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/pkg/env/global/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/Library/TeX/texbin/tapi"
+      - "/Users/denankurejsepi/.local/bin/tapi"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/tapi"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/tapi"
+      - "/Users/denankurejsepi/go/bin/tapi"
+      - "/Applications/Obsidian.app/Contents/MacOS/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:66 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
       CMAKE_FIND_USE_CMAKE_PATH: true
       CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
       CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "rc"
+      - "install_name_tool"
     candidate_directories:
-      - "C:/Windows/CCM/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/ServiceNow/agent-client-collector/bin/"
-      - "C:/Program Files/ServiceNow/agent-client-collector/embedded/bin/"
-      - "C:/Users/KurejsepiD/.cargo/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Python/bin/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/"
-      - "C:/Users/KurejsepiD/AppData/Roaming/npm/"
-      - "C:/Program Files/bin/"
-      - "C:/Program Files/sbin/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/bin/"
-      - "C:/Program Files (x86)/sbin/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/sbin/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/psc/bin/"
-      - "C:/Program Files (x86)/psc/sbin/"
-      - "C:/Program Files (x86)/psc/"
+      - "/Users/denankurejsepi/.pyenv/shims/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Users/denankurejsepi/Library/Python/3.8/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/Users/denankurejsepi/.local/bin/"
+      - "/Users/denankurejsepi/Documents/Engineering/Source/ledger/"
+      - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/"
+      - "/Users/denankurejsepi/go/bin/"
+      - "/Applications/Obsidian.app/Contents/MacOS/"
     searched_directories:
-      - "C:/Windows/CCM/rc.com"
-      - "C:/Windows/CCM/rc.exe"
-      - "C:/Windows/CCM/rc"
-      - "C:/Windows/System32/rc.com"
-      - "C:/Windows/System32/rc.exe"
-      - "C:/Windows/System32/rc"
-      - "C:/Windows/rc.com"
-      - "C:/Windows/rc.exe"
-      - "C:/Windows/rc"
-      - "C:/Windows/System32/wbem/rc.com"
-      - "C:/Windows/System32/wbem/rc.exe"
-      - "C:/Windows/System32/wbem/rc"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
-      - "C:/Windows/System32/OpenSSH/rc.com"
-      - "C:/Windows/System32/OpenSSH/rc.exe"
-      - "C:/Windows/System32/OpenSSH/rc"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc.com"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc.exe"
-      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/rc"
-      - "C:/Program Files/dotnet/rc.com"
-      - "C:/Program Files/dotnet/rc.exe"
-      - "C:/Program Files/dotnet/rc"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/rc.com"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/rc.exe"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/rc"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/rc.com"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/rc.exe"
-      - "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/rc"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
-      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
-      - "C:/Program Files/CMake/bin/rc.com"
-      - "C:/Program Files/CMake/bin/rc.exe"
-      - "C:/Program Files/CMake/bin/rc"
-      - "C:/Program Files/nodejs/rc.com"
-      - "C:/Program Files/nodejs/rc.exe"
-      - "C:/Program Files/nodejs/rc"
-      - "C:/Program Files/ServiceNow/agent-client-collector/bin/rc.com"
-      - "C:/Program Files/ServiceNow/agent-client-collector/bin/rc.exe"
-      - "C:/Program Files/ServiceNow/agent-client-collector/bin/rc"
-      - "C:/Program Files/ServiceNow/agent-client-collector/embedded/bin/rc.com"
-      - "C:/Program Files/ServiceNow/agent-client-collector/embedded/bin/rc.exe"
-      - "C:/Program Files/ServiceNow/agent-client-collector/embedded/bin/rc"
-      - "C:/Users/KurejsepiD/.cargo/bin/rc.com"
-      - "C:/Users/KurejsepiD/.cargo/bin/rc.exe"
-      - "C:/Users/KurejsepiD/.cargo/bin/rc"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/rc.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/rc.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/rc"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/bin/rc"
-      - "C:/Users/KurejsepiD/AppData/Local/Python/bin/rc.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Python/bin/rc.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Python/bin/rc"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/rc"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/rc.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/rc.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/rc"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/rc.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/rc.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/rc"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/rc.com"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/rc.exe"
-      - "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/rc"
-      - "C:/Users/KurejsepiD/AppData/Roaming/npm/rc.com"
-      - "C:/Users/KurejsepiD/AppData/Roaming/npm/rc.exe"
-      - "C:/Users/KurejsepiD/AppData/Roaming/npm/rc"
-      - "C:/Program Files/bin/rc.com"
-      - "C:/Program Files/bin/rc.exe"
-      - "C:/Program Files/bin/rc"
-      - "C:/Program Files/sbin/rc.com"
-      - "C:/Program Files/sbin/rc.exe"
-      - "C:/Program Files/sbin/rc"
-      - "C:/Program Files/rc.com"
-      - "C:/Program Files/rc.exe"
-      - "C:/Program Files/rc"
-      - "C:/Program Files (x86)/bin/rc.com"
-      - "C:/Program Files (x86)/bin/rc.exe"
-      - "C:/Program Files (x86)/bin/rc"
-      - "C:/Program Files (x86)/sbin/rc.com"
-      - "C:/Program Files (x86)/sbin/rc.exe"
-      - "C:/Program Files (x86)/sbin/rc"
-      - "C:/Program Files (x86)/rc.com"
-      - "C:/Program Files (x86)/rc.exe"
-      - "C:/Program Files (x86)/rc"
-      - "C:/Program Files/CMake/bin/rc.com"
-      - "C:/Program Files/CMake/bin/rc.exe"
-      - "C:/Program Files/CMake/bin/rc"
-      - "C:/Program Files/CMake/sbin/rc.com"
-      - "C:/Program Files/CMake/sbin/rc.exe"
-      - "C:/Program Files/CMake/sbin/rc"
-      - "C:/Program Files/CMake/rc.com"
-      - "C:/Program Files/CMake/rc.exe"
-      - "C:/Program Files/CMake/rc"
-      - "C:/Program Files (x86)/psc/bin/rc.com"
-      - "C:/Program Files (x86)/psc/bin/rc.exe"
-      - "C:/Program Files (x86)/psc/bin/rc"
-      - "C:/Program Files (x86)/psc/sbin/rc.com"
-      - "C:/Program Files (x86)/psc/sbin/rc.exe"
-      - "C:/Program Files (x86)/psc/sbin/rc"
-      - "C:/Program Files (x86)/psc/rc.com"
-      - "C:/Program Files (x86)/psc/rc.exe"
-      - "C:/Program Files (x86)/psc/rc"
-    found: false
+      - "/Users/denankurejsepi/.pyenv/shims/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/opt/homebrew/sbin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\CCM\\"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files\\Adaptiva\\AdaptivaClient\\bin\\x86"
-        - "C:\\Program Files\\Adaptiva\\AdaptivaClient\\bin\\amd64"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\ServiceNow\\agent-client-collector\\bin"
-        - "C:\\Program Files\\ServiceNow\\agent-client-collector\\embedded\\bin"
-        - "C:\\Users\\KurejsepiD\\.cargo\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Python\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Programs\\Git\\cmd"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe\\syncthing-windows-amd64-v2.1.5"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe\\yazi-x86_64-pc-windows-msvc"
-        - "C:\\Users\\KurejsepiD\\AppData\\Roaming\\npm"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/psc"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/psc"
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-ttyd0r"
-      binary: "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-ttyd0r"
+      source: "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-EZs6q1"
+      binary: "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-EZs6q1"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
-      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-ttyd0r'
+        Change Dir: '/Users/denankurejsepi/Documents/Engineering/Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-EZs6q1'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4b384.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
-        MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
-        Build started 2/10/2026 10:17:21 AM.
-        
-        Project "C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttyd0r\\cmTC_4b384.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttyd0r\\Debug\\".
-          Creating directory "cmTC_4b384.dir\\Debug\\cmTC_4b384.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_4b384.dir\\Debug\\cmTC_4b384.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_4b384.dir\\Debug\\cmTC_4b384.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_4b384.dir\\Debug\\\\" /Fd"cmTC_4b384.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36257 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_4b384.dir\\Debug\\\\" /Fd"cmTC_4b384.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
-          CMakeCXXCompilerABI.cpp
-        Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttyd0r\\Debug\\cmTC_4b384.exe" /INCREMENTAL /ILK:"cmTC_4b384.dir\\Debug\\cmTC_4b384.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-ttyd0r/Debug/cmTC_4b384.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-ttyd0r/Debug/cmTC_4b384.lib" /MACHINE:X64  /machine:x64 cmTC_4b384.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_4b384.vcxproj -> C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttyd0r\\Debug\\cmTC_4b384.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_4b384.dir\\Debug\\cmTC_4b384.tlog\\unsuccessfulbuild".
-          Touching "cmTC_4b384.dir\\Debug\\cmTC_4b384.tlog\\cmTC_4b384.lastbuildstate".
-        Done Building Project "C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttyd0r\\cmTC_4b384.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.68
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8aae3/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8aae3.dir/build.make CMakeFiles/cmTC_8aae3.dir/build
+        Building CXX object CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 21.0.0 (clang-2100.3.34.2)
+        Target: arm64-apple-darwin27.0.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx27.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=27.0 -fdepfile-entry=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/denankurejsepi/Documents/Engineering/Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-EZs6q1 -target-linker-version 1166.2 -v -fcoverage-compilation-dir=/Users/denankurejsepi/Documents/Engineering/Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-EZs6q1 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.0.0 (clang-2100.3.34.2) default target arm64-apple-darwin27.0.0
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_8aae3
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8aae3.dir/link.txt --verbose=1
+        Apple clang version 21.0.0 (clang-2100.3.34.2)
+        Target: arm64-apple-darwin27.0.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 27.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_8aae3 -L/usr/local/lib -v CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-27037.1
+        BUILD 21:17:51 Aug 25 2026
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        LTO support using: LLVM version 21.0.0 (static support for 30, runtime is 30)
+        TAPI support using: Apple TAPI version 21.0.0 (tapi-2100.3.8.1)
+        Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
+        /usr/bin/c++  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8aae3
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:160 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     message: |
-      Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        link line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\KurejsepiD\\OneDrive - AECOM\\Documents\\30 Engineering\\31 Source\\PS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ttyd0r\\Debug\\cmTC_4b384.exe" /INCREMENTAL /ILK:"cmTC_4b384.dir\\Debug\\cmTC_4b384.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-ttyd0r/Debug/cmTC_4b384.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-ttyd0r/Debug/cmTC_4b384.lib" /MACHINE:X64  /machine:x64 cmTC_4b384.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
-        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     message: |
-      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.51.36257.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/denankurejsepi/Documents/Engineering/Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-EZs6q1']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8aae3/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8aae3.dir/build.make CMakeFiles/cmTC_8aae3.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 21.0.0 (clang-2100.3.34.2)]
+        ignore line: [Target: arm64-apple-darwin27.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx27.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=27.0 -fdepfile-entry=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/denankurejsepi/Documents/Engineering/Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-EZs6q1 -target-linker-version 1166.2 -v -fcoverage-compilation-dir=/Users/denankurejsepi/Documents/Engineering/Source/PS/build/CMakeFiles/CMakeScratch/TryCompile-EZs6q1 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.0.0 (clang-2100.3.34.2) default target arm64-apple-darwin27.0.0]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_8aae3]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8aae3.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 21.0.0 (clang-2100.3.34.2)]
+        ignore line: [Target: arm64-apple-darwin27.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 27.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_8aae3 -L/usr/local/lib -v CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> linker [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 27.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_8aae3 -L/usr/local/lib -v CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [27.0.0] ==> ignore
+          arg [27.0] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_8aae3] ==> ignore
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_8aae3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld 
+        Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-27037.1
+      BUILD 21:17:51 Aug 25 2026
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      LTO support using: LLVM version 21.0.0 (static support for 30, runtime is 30)
+      TAPI support using: Apple TAPI version 21.0.0 (tapi-2100.3.8.1)
   -
     kind: "find_package-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FetchContent.cmake:2501 (find_package)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FetchContent.cmake:2379 (__FetchContent_MakeAvailable_find_package)"
+      - "/opt/homebrew/share/cmake/Modules/FetchContent.cmake:2501 (find_package)"
+      - "/opt/homebrew/share/cmake/Modules/FetchContent.cmake:2379 (__FetchContent_MakeAvailable_find_package)"
       - "CMakeLists.txt:28 (FetchContent_MakeAvailable)"
     name: "nlohmann_json"
     configs:
@@ -1009,478 +1471,539 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/pkgRedirects/nlohmann_jsonConfig.cmake"
+        path: "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/CMakeFiles/pkgRedirects/nlohmann_jsonConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/pkgRedirects/nlohmann_json-config.cmake"
+        path: "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/CMakeFiles/pkgRedirects/nlohmann_json-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/pkgRedirects/lib/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/CMakeFiles/pkgRedirects/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/CMakeFiles/pkgRedirects/share/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/CMakeFiles/pkgRedirects/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Windows/CCM/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/CCM/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/CCM/lib/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/CMakeFiles/pkgRedirects/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Windows/CCM/share/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/.pyenv/shims/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/denankurejsepi/.pyenv/shims/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/denankurejsepi/.pyenv/shims/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Windows/System32/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/lib/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/.pyenv/shims/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Windows/System32/share/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/.pyenv/shims/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Windows/nlohmann_jsonConfig.cmake"
+        path: "/opt/homebrew/nlohmann_jsonConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Windows/nlohmann_json-config.cmake"
+        path: "/opt/homebrew/nlohmann_json-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Windows/lib/cps/nlohmann_json.cps"
+        path: "/opt/homebrew/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Windows/share/cps/nlohmann_json.cps"
+        path: "/opt/homebrew/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Windows/System32/wbem/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/lib/cps/nlohmann_json.cps"
+        path: "/opt/homebrew/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Windows/System32/wbem/share/cps/nlohmann_json.cps"
+        path: "/usr/local/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/nlohmann_json.cps"
+        path: "/usr/local/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/nlohmann_json.cps"
+        path: "/usr/local/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Windows/System32/OpenSSH/nlohmann_jsonConfig.cmake"
+        path: "/usr/nlohmann_jsonConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Windows/System32/OpenSSH/nlohmann_json-config.cmake"
+        path: "/usr/nlohmann_json-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Windows/System32/OpenSSH/lib/cps/nlohmann_json.cps"
+        path: "/usr/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Windows/System32/OpenSSH/share/cps/nlohmann_json.cps"
+        path: "/usr/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/dotnet/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/lib/cps/nlohmann_json.cps"
+        path: "/usr/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/dotnet/share/cps/nlohmann_json.cps"
+        path: "/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/lib/cps/nlohmann_json.cps"
+        path: "/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/Adaptiva/AdaptivaClient/bin/x86/share/cps/nlohmann_json.cps"
+        path: "/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/nlohmann_jsonConfig.cmake"
+        path: "/Users/denankurejsepi/Library/Python/3.8/nlohmann_jsonConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/nlohmann_json-config.cmake"
+        path: "/Users/denankurejsepi/Library/Python/3.8/nlohmann_json-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/lib/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/Library/Python/3.8/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/Adaptiva/AdaptivaClient/bin/amd64/share/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/Library/Python/3.8/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/Library/Python/3.8/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/cps/nlohmann_json.cps"
+        path: "/pkg/env/global/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/pkg/env/global/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/pkg/env/global/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/cps/nlohmann_json.cps"
+        path: "/pkg/env/global/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/cps/nlohmann_json.cps"
+        path: "/pkg/env/global/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/nlohmann_jsonConfig.cmake"
+        path: "/Library/Apple/usr/nlohmann_jsonConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/nlohmann_json-config.cmake"
+        path: "/Library/Apple/usr/nlohmann_json-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lib/cps/nlohmann_json.cps"
+        path: "/Library/Apple/usr/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/share/cps/nlohmann_json.cps"
+        path: "/Library/Apple/usr/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/CMake/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/lib/cps/nlohmann_json.cps"
+        path: "/Library/Apple/usr/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/CMake/share/cps/nlohmann_json.cps"
+        path: "/Library/TeX/texbin/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/TeX/texbin/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/TeX/texbin/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/nodejs/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/nodejs/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/nodejs/lib/cps/nlohmann_json.cps"
+        path: "/Library/TeX/texbin/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/nodejs/share/cps/nlohmann_json.cps"
+        path: "/Library/TeX/texbin/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/ServiceNow/agent-client-collector/nlohmann_jsonConfig.cmake"
+        path: "/Users/denankurejsepi/.local/nlohmann_jsonConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Program Files/ServiceNow/agent-client-collector/nlohmann_json-config.cmake"
+        path: "/Users/denankurejsepi/.local/nlohmann_json-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Program Files/ServiceNow/agent-client-collector/lib/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/.local/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/ServiceNow/agent-client-collector/share/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/.local/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/ServiceNow/agent-client-collector/embedded/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/ServiceNow/agent-client-collector/embedded/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/ServiceNow/agent-client-collector/embedded/lib/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/.local/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/ServiceNow/agent-client-collector/embedded/share/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/Documents/Engineering/Source/ledger/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/denankurejsepi/Documents/Engineering/Source/ledger/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/denankurejsepi/Documents/Engineering/Source/ledger/cmake/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/denankurejsepi/Documents/Engineering/Source/ledger/cmake/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/denankurejsepi/Documents/Engineering/Source/ledger/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/.cargo/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/KurejsepiD/.cargo/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/KurejsepiD/.cargo/lib/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/Documents/Engineering/Source/ledger/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/.cargo/share/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/Documents/Engineering/Source/ledger/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/nlohmann_jsonConfig.cmake"
+        path: "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/nlohmann_jsonConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/nlohmann_json-config.cmake"
+        path: "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/nlohmann_json-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/lib/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Microsoft/WindowsApps/share/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/lib/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Programs/Microsoft VS Code/share/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/go/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/denankurejsepi/go/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/denankurejsepi/go/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Python/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/KurejsepiD/AppData/Local/Python/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/KurejsepiD/AppData/Local/Python/lib/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/go/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Python/share/cps/nlohmann_json.cps"
+        path: "/Users/denankurejsepi/go/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/nlohmann_jsonConfig.cmake"
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/nlohmann_jsonConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/nlohmann_json-config.cmake"
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/nlohmann_json-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/cps/nlohmann_json.cps"
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe/share/cps/nlohmann_json.cps"
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/lib/cps/nlohmann_json.cps"
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Programs/Git/cmd/share/cps/nlohmann_json.cps"
+        path: "/opt/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/lib/cps/nlohmann_json.cps"
+        path: "/opt/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe/syncthing-windows-amd64-v2.1.5/share/cps/nlohmann_json.cps"
+        path: "/opt/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/nlohmann_jsonConfig.cmake"
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/nlohmann_jsonConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/nlohmann_json-config.cmake"
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/nlohmann_json-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/lib/cps/nlohmann_json.cps"
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/KurejsepiD/AppData/Local/Microsoft/WinGet/Packages/sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe/yazi-x86_64-pc-windows-msvc/share/cps/nlohmann_json.cps"
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/lib/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/nlohmann_jsonConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/nlohmann_json-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/lib/cps/nlohmann_json.cps"
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files/share/cps/nlohmann_json.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/nlohmann_jsonConfig.cmake"
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/nlohmann_jsonConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Program Files (x86)/nlohmann_json-config.cmake"
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/nlohmann_json-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Program Files (x86)/lib/cps/nlohmann_json.cps"
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/lib64/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Program Files (x86)/share/cps/nlohmann_json.cps"
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/lib/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/share/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/lib64/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/lib/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/share/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/lib64/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/lib/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/share/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/lib64/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/lib/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/share/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Users/denankurejsepi/Applications/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/denankurejsepi/Applications/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/denankurejsepi/Applications/lib64/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Users/denankurejsepi/Applications/lib/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Users/denankurejsepi/Applications/share/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Applications/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/lib64/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Applications/lib/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Applications/share/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Applications/nlohmann_jsonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Applications/nlohmann_json-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Applications/lib64/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Applications/lib/cps/nlohmann_json.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Applications/share/cps/nlohmann_json.cps"
         mode: "cps"
         reason: "no_exist"
     found: null
     search_context:
       ENV{PATH}:
-        - "C:\\WINDOWS\\CCM\\"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files\\Adaptiva\\AdaptivaClient\\bin\\x86"
-        - "C:\\Program Files\\Adaptiva\\AdaptivaClient\\bin\\amd64"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\ServiceNow\\agent-client-collector\\bin"
-        - "C:\\Program Files\\ServiceNow\\agent-client-collector\\embedded\\bin"
-        - "C:\\Users\\KurejsepiD\\.cargo\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Python\\bin"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\simonmichael.hledger_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Programs\\Git\\cmd"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Syncthing.Syncthing_Microsoft.Winget.Source_8wekyb3d8bbwe\\syncthing-windows-amd64-v2.1.5"
-        - "C:\\Users\\KurejsepiD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sxyazi.yazi_Microsoft.Winget.Source_8wekyb3d8bbwe\\yazi-x86_64-pc-windows-msvc"
-        - "C:\\Users\\KurejsepiD\\AppData\\Roaming\\npm"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/psc"
+        - "/Users/denankurejsepi/.pyenv/shims"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Users/denankurejsepi/Library/Python/3.8/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/Users/denankurejsepi/.local/bin"
+        - "/Users/denankurejsepi/Documents/Engineering/Source/ledger"
+        - "/Users/denankurejsepi/Documents/Org/Financials/Analysis/Tools/build"
+        - "/Users/denankurejsepi/go/bin"
+        - "/Applications/Obsidian.app/Contents/MacOS"
+        - "/Users/denankurejsepi/.local/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/psc"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
 ...

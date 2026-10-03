@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/_deps/nlohmann_json-src")
-  file(MAKE_DIRECTORY "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/_deps/nlohmann_json-src")
+if(NOT EXISTS "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/_deps/nlohmann_json-src")
+  file(MAKE_DIRECTORY "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/_deps/nlohmann_json-src")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/_deps/nlohmann_json-build"
-  "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix"
-  "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/tmp"
-  "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp"
-  "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src"
-  "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp"
+  "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/_deps/nlohmann_json-build"
+  "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix"
+  "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/tmp"
+  "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp"
+  "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src"
+  "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp"
 )
 
-set(configSubDirs Debug)
+set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/KurejsepiD/OneDrive - AECOM/Documents/30 Engineering/31 Source/PS/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/denankurejsepi/Documents/Engineering/Source/PS/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()
